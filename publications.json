@@ -1,119 +1,164 @@
 {
-  "source": "ORCID/OpenAlex",
-  "updated": "2026-11-01T13:06:52+00:00",
+  "source": "Google Scholar + ORCID/OpenAlex",
+  "updated": "2026-11-01T13:29:14+00:00",
   "metrics": {
-    "citations": 859,
+    "citations": 872,
     "h_index": 18,
     "i10_index": 31,
-    "label": "Google Scholar, 11 Oct 2026 · Web of Science: 454 citations, h-index 14"
+    "label": "Google Scholar"
   },
   "publications": [
     {
+      "title": "Entropy generation and heat transfer in MHD channel flows with porous walls, Navier slip, and convective boundary conditions",
+      "authors": "VT Peter, TS Yusuf, MO Oni, BK Jha",
+      "venue": "",
+      "year": null,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:maZDTaKrznsC",
+      "doi": ""
+    },
+    {
+      "title": "Fully Developed Free Convection Flow in a Vertical Slot with Open to Capped Ends: D’Alembert’s Approach",
+      "authors": "BK Jha, MO Oni",
+      "venue": "",
+      "year": null,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:_FxGoFyzp5QC",
+      "doi": ""
+    },
+    {
+      "title": "Next Chemical Engineering",
+      "authors": "MO Oni, AA Hussain, BK Jha",
+      "venue": "",
+      "year": null,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:ns9cj8rnVeAC",
+      "doi": ""
+    },
+    {
+      "title": "Partial Differential Equations in Applied Mathematics",
+      "authors": "MO Lawal, KB Kasali, HA Ogunseye, MO Oni, YO Tijani, YT Lawal",
+      "venue": "",
+      "year": null,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:aqlVkmm33-oC",
+      "doi": ""
+    },
+    {
       "title": "A Semi-Analytical Framework for Transient Electro-MHD Oil Transport in Subsurface Capillaries",
-      "authors": "Sani Isa, Michael O. Oni, Ali Musa",
-      "venue": "International Journal of Applied Mechanics and Engineering",
+      "authors": "S Isa, M Oni, A Musa",
+      "venue": "International Journal of Applied Mechanics and Engineering 31 (3), 21-42, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.59441/ijame/221546",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:NMxIlDl6LWMC",
       "doi": "10.59441/ijame/221546"
     },
     {
       "title": "Analytical investigation of dual streaming potentials in electroosmotic magnetohydrodynamic nanofluid flow with induced magnetic field",
-      "authors": "Usman S. Rilwan, Michael O. Oni, Basant K. Jha",
-      "venue": "Next Materials",
+      "authors": "US Rilwan, MO Oni, BK Jha",
+      "venue": "Next Materials 13, 103487, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1016/j.nxmate.2026.103487",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:35N4QoGY0k4C",
       "doi": "10.1016/j.nxmate.2026.103487"
     },
     {
       "title": "Analytical modeling of coupled electro-hydrodynamic and thermal transport in two-phase porous-fluid annular channels: enhanced oil recovery",
-      "authors": "Michael O. Oni, Basant K. Jha, Taiwo S. Yusuf, Mohammed S. Shagari",
-      "venue": "Computational Geosciences",
+      "authors": "MO Oni, BK Jha, TS Yusuf, MS Shagari",
+      "venue": "Computational Geosciences 30 (5), 90, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1007/s10596-026-10484-9",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:NaGl4SEjCO4C",
       "doi": "10.1007/s10596-026-10484-9"
     },
     {
       "title": "Combined convection of an exothermic fluid with varying viscosity due to asymmetric/symmetric heating",
-      "authors": "Godwin Ojemeri, Michael O. Oni, Cephas Iko-Ojo Gabriel, Emmanuel Omokhuale, Halima Usman, Tasi’u Ahmad Rufa’I",
-      "venue": "International Communications in Heat and Mass Transfer",
+      "authors": "G Ojemeri, MO Oni, CIO Gabriel, E Omokhuale, H Usman, TA Rufa'i",
+      "venue": "International Communications in Heat and Mass Transfer 177, 111447, 2026",
       "year": 2026,
       "citations": 1,
-      "url": "https://doi.org/10.1016/j.icheatmasstransfer.2026.111447",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:hMod-77fHWUC",
       "doi": "10.1016/j.icheatmasstransfer.2026.111447"
     },
     {
       "title": "Comparative thermal analysis of Cu, SnO2, and SiO2/water nanofluids in electroosmotic-magnetohydrodynamics mixed convection for microfluidic cooling",
-      "authors": "Usman S. Rilwan, Michael O. Oni, Basant K. Jha",
-      "venue": "Next Chemical Engineering",
+      "authors": "US Rilwan, MO Oni, BK Jha",
+      "venue": "Next Chemical Engineering 3, 100122, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1016/j.nxcen.2026.100122",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:ldfaerwXgEUC",
       "doi": "10.1016/j.nxcen.2026.100122"
     },
     {
       "title": "Computational Treatment of Unsteady Natural Convective and Mass Transfer Flow in a Vertical Microchannel Under Electroosmotic Effects",
-      "authors": "Michael O. Oni, Shakira Y. Adebayo, Taiwo S. Yusuf, Basant Kumar Jha",
-      "venue": "ZAMM ‐ Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik",
+      "authors": "MO Oni, SY Adebayo, TS Yusuf, BK Jha",
+      "venue": "ZAMM‐Journal of Applied Mathematics and Mechanics/Zeitschrift für Angewandte …, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1002/zamm.70452",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:blknAaTinKkC",
       "doi": "10.1002/zamm.70452"
     },
     {
+      "title": "Coupled electroosmotic-electromagnetohydrodynamic transport in a vertical microchannel with suction/injection: Heat and mass transfer analysis for Lab-on-a-Chip cooling …",
+      "authors": "MO Oni, SY Adebayo, TS Yusuf, BK Jha",
+      "venue": "Propulsion and Power Research, 2026",
+      "year": 2026,
+      "citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:M3NEmzRMIkIC",
+      "doi": "10.1016/j.jppr.2025.12.008"
+    },
+    {
       "title": "Dual streaming potential effects on EMHD mixed convective nanofluid flow with viscous dissipation and Joule heating",
-      "authors": "Usman S. Rilwan, Michael O. Oni, Basant Kumar Jha",
-      "venue": "Proceedings of the Institution of Mechanical Engineers Part A Journal of Power and Energy",
+      "authors": "US Rilwan, MO Oni, BK Jha",
+      "venue": "Proceedings of the Institution of Mechanical Engineers, Part A: Journal of …, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1177/09576509261490836",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:70eg2SAEIzsC",
       "doi": "10.1177/09576509261490836"
     },
     {
-      "title": "Entropy generation and mixed convection in vertical annuli with variable-viscosity: Applications in EOR",
-      "authors": "Sani Isa, Michael O. Oni, Ali Musa",
-      "venue": "Thermal advances.",
+      "title": "Entropy Generation and Mixed Convection in Vertical Annuli with Variable-Viscosity: Applications in EOR",
+      "authors": "S Isa, MO Oni, A Musa",
+      "venue": "Thermal Advances, 100174, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1016/j.thradv.2026.100174",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:GnPB-g6toBAC",
       "doi": "10.1016/j.thradv.2026.100174"
     },
     {
-      "title": "Feng-Liu-type paired contractions in suprametric spaces with applications to fractional differential inclusion models for COVID-19",
-      "authors": "S. S. Mohammed, A. A. Muhammad, M. Alansari, M. O. Oni, A. I. Tanko, A. Saliu",
-      "venue": "Journal of Nonlinear Mathematical Physics",
+      "title": "Feng-Liu-Type Paired Contractions in Suprametric Spaces with Applications to Fractional Differential Inclusion Models for COVID-19",
+      "authors": "SS Mohammed, AA Muhammad, M Alansari, MO Oni, AI Tanko, A Saliu",
+      "venue": "Journal of Nonlinear Mathematical Physics 1, 3, 2026",
       "year": 2026,
       "citations": 0,
-      "doi": "",
-      "url": ""
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:2P1L_qKh6hAC",
+      "doi": ""
     },
     {
       "title": "Gradient‐Based Optimization Modeling of Total Entropy and Heat Transfer in Exothermic Blood Analog Gold Nanoparticle Suspension",
-      "authors": "Mojeed Taiwo Akolade, Mathew Fiyinfoluwa Oyedotun, Michael O. Oni, Yusuf Olatunji Tijani, Adeshina Taofeeq Adeosun, T. Sathiyaraj, Abiodun O. Ajibade, Mohamed M. Awad",
-      "venue": "Engineering Reports",
+      "authors": "MT Akolade, MF Oyedotun, MO Oni, YO Tijani, AT Adeosun, T Sathiyaraj, ...",
+      "venue": "Engineering Reports 8 (9), e71011, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1002/eng2.71011",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:RYcK_YlVTxYC",
       "doi": "10.1002/eng2.71011"
     },
     {
       "title": "Hall current and ion-slip effects on unsteady MHD heat and mass transfer in a vertical microchannel with thermal radiation",
-      "authors": "Abdulmalik A. Hussain, Michael O. Oni, Basant Kumar Jha, Ayuba M. Umar",
-      "venue": "Next Nanotechnology",
+      "authors": "AA Hussain, MO Oni, BK Jha, AM Umar",
+      "venue": "Next Nanotechnology 10, 100866, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1016/j.nxnano.2026.100866",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:M05iB0D1s5AC",
       "doi": "10.1016/j.nxnano.2026.100866"
     },
     {
       "title": "Interplay of ion-slip and Hall currents on magnetohydrodynamic natural convection in a vertical microchannel with suction/injection",
-      "authors": "Michael O. Oni, Abdulmalik A. Hussain, Basant K. Jha",
-      "venue": "Next Chemical Engineering",
+      "authors": "MO Oni, AA Hussain, BK Jha",
+      "venue": "Next Chemical Engineering 3, 100067, 2026",
       "year": 2026,
-      "citations": 2,
-      "url": "https://doi.org/10.1016/j.nxcen.2026.100067",
+      "citations": 4,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:BqipwSGYUEgC",
       "doi": "10.1016/j.nxcen.2026.100067"
     },
     {
@@ -136,83 +181,83 @@
     },
     {
       "title": "Optimizing advanced microthermal systems: Synergistic effects of dual streaming potentials and induced magnetic fields in EMHD-driven hybrid flows",
-      "authors": "Usman S. Rilwan, Michael O. Oni, Haruna M. Jibril, Basant Kumar Jha",
-      "venue": "Proceedings of the Institution of Mechanical Engineers Part E Journal of Process Mechanical Engineering",
+      "authors": "US Rilwan, MO Oni, HM Jibril, BK Jha",
+      "venue": "Proceedings of the Institution of Mechanical Engineers, Part E: Journal of …, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1177/09544089261486669",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:lSLTfruPkqcC",
       "doi": "10.1177/09544089261486669"
     },
     {
-      "title": "Role of heat source/sink and chemical reaction on natural convection flow in a vertical porous microchannel with Hall current and ion slip",
-      "authors": "Abdulmalik A. Hussain, Michael O. Oni",
-      "venue": "International Journal of Mechanics and Materials in Design",
+      "title": "Role of heat source/sink and chemical reaction on natural convection flow in a vertical porous microchannel with Hall current and ion slip: AA Hussain and MO Oni",
+      "authors": "AA Hussain, MO Oni",
+      "venue": "International Journal of Mechanics and Materials in Design 22 (3), 139, 2026",
       "year": 2026,
       "citations": 3,
-      "url": "https://doi.org/10.1007/s10999-026-09946-w",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:O3NaXMp0MMsC",
       "doi": "10.1007/s10999-026-09946-w"
     },
     {
-      "title": "Spectral and Taguchi approaches to entropy generation minimization of a particulate Casson-micropolar nanofluid suspension in an unsteady flow regime",
-      "authors": "Mojeed Taiwo Akolade, Mathew Fiyinfoluwa Oyedotun, Michael O. Oni, Adeshina Taofeeq Adeosun, Maba Boniface Matadi",
-      "venue": "Results in Engineering",
+      "title": "Spectral and Taguchi Approaches to Entropy Generation Minimization of a Particulate Casson-Micropolar Nanofluid Suspension in an Unsteady Flow Regime",
+      "authors": "MT Akolade, MF Oyedotun, MO Oni, AT Adeosun, MB Matadi",
+      "venue": "Results in Engineering, 112666, 2026",
       "year": 2026,
       "citations": 1,
-      "url": "https://doi.org/10.1016/j.rineng.2026.112666",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:J_g5lzvAfSwC",
       "doi": "10.1016/j.rineng.2026.112666"
     },
     {
       "title": "Synergistic effects of electro-magnetohydrodynamics and induced magnetic fields on the convective dynamics of Cu–SnO₂–SiO₂/water nanofluids",
-      "authors": "Usman S. Rilwan, Michael O. Oni, Haruna M. Jibril, Basant K. Jha",
-      "venue": "Next Nanotechnology",
+      "authors": "US Rilwan, MO Oni, HM Jibril, BK Jha",
+      "venue": "Next Nanotechnology 10, 100747, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1016/j.nxnano.2026.100747",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:vV6vV6tmYwMC",
       "doi": "10.1016/j.nxnano.2026.100747"
     },
     {
       "title": "Thermodynamic assessment of 3D fractional dual-phase lag thermal transport in annular cooling architectures for 3D-stacked ICs",
-      "authors": "Michael O. Oni, Wen‐Sheng Zhao, Dimpho Millicent Mothibi, Hairong Wang, Sithole H. Mthethwa, Absalom El-Shamir Ezugwu",
-      "venue": "International Journal of Heat and Mass Transfer",
+      "authors": "MO Oni, WS Zhao, D Mothibi, H Wang, SH Mthethwa, AES Ezugwu",
+      "venue": "International Journal of Heat and Mass Transfer 268, 129066, 2026",
       "year": 2026,
       "citations": 3,
-      "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2026.129066",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:YFjsv_pBGBYC",
       "doi": "10.1016/j.ijheatmasstransfer.2026.129066"
     },
     {
-      "title": "Coupled electroosmotic-electromagnetohydrodynamic transport in a vertical microchannel with suction/injection: Heat and mass transfer analysis for Lab-on-a-Chip cooling applications",
-      "authors": "Michael O. Oni, Shakira Y. Adebayo, Taiwo S. Yusuf, Basant Kumar Jha",
-      "venue": "Propulsion and Power Research",
+      "title": "Coupled Thermal and Electrokinetic Effects on Natural Convection in Electromagnetohydrodynamic Flow",
+      "authors": "MO Onia, US Rilwana",
+      "venue": "Journal of Mathematics and Artificial Intelligence 1 (2), 91-115, 2025",
       "year": 2025,
       "citations": 6,
-      "url": "https://doi.org/10.1016/j.jppr.2025.12.008",
-      "doi": "10.1016/j.jppr.2025.12.008"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:bEWYMUwI8FkC",
+      "doi": ""
     },
     {
-      "title": "Coupled thermal and electrokinetic effects on natural convection in electromagnetohydrodynamic flow",
-      "authors": "M. O. Oni, U. S. Rilwan",
-      "venue": "Journal of Mathematics and Artificial Intelligence, 1(2), 91–115",
+      "title": "Effects of joule heating and viscous dissipation on electromagneto-hydrodynamic flow in a microchannel with electroosmotic effect: Enhancement of MEMS cooling",
+      "authors": "US Rilwan, MO Oni, HM Jibril, BK Jha",
+      "venue": "Proceedings of the Institution of Mechanical Engineers, Part N: Journal of …, 2025",
       "year": 2025,
-      "doi": "",
-      "citations": 5,
-      "url": ""
+      "citations": 12,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:TQgYirikUcIC",
+      "doi": "10.1177/23977914231217929"
     },
     {
       "title": "Interplay of steady/unsteady Jeffrey EMHD nanofluid flow formation in a vertical channel with induced magnetic field",
-      "authors": "Michael O. Oni, Usman S. Rilwan",
-      "venue": "Journal of the Korean Physical Society",
+      "authors": "MO Oni, US Rilwan",
+      "venue": "Journal of the Korean Physical Society 87 (12), 1474-1500, 2025",
       "year": 2025,
-      "citations": 3,
-      "url": "https://doi.org/10.1007/s40042-025-01472-w",
+      "citations": 5,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:isC4tDSrTZIC",
       "doi": "10.1007/s40042-025-01472-w"
     },
     {
-      "title": "Mathematical Approaches to Innovative Multimodal Transportation Solutions: Regulatory and Policy Framework for Development and Sustainability",
-      "authors": "Michael O. Oni, Endurance Keyamo, Junaid M. Abba",
+      "title": "Mathematical Approaches to Innovative Multimodal Transportation Solutions: Regulatory and Policy Framework for Development and Sustainability. Global Research Review in …",
+      "authors": "MO Oni, E Keyamo, A Junaid",
       "venue": "Global Research Review in Business and Economics",
       "year": 2025,
-      "citations": 0,
-      "url": "https://doi.org/10.56805/grrbe.25.11.6.110",
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:JV2RwH3_ST0C",
       "doi": "10.56805/grrbe.25.11.6.110"
     },
     {
@@ -225,121 +270,148 @@
       "url": ""
     },
     {
-      "title": "Theory of conjugate mixed convection flow of hybridized ethylene glycol based nanoparticles with Joule heating",
-      "authors": "Michael O. Oni, Mojeed Taiwo Akolade, Gabriel Samaila, Taiwo S. Yusuf, Yusuf Olatunji Tijani, Abdulhakeem Yusuf, Peter Bukar Malgwi",
-      "venue": "Journal of Thermal Analysis and Calorimetry",
+      "title": "Theory of conjugate mixed convection flow of hybridized ethylene glycol based nanoparticles with Joule heating: MO Oni et al.",
+      "authors": "MO Oni, MT Akolade, G Samaila, TS Yusuf, YO Tijani, A Yusuf, PB Malgwi",
+      "venue": "Journal of Thermal Analysis and Calorimetry 150 (3), 1933-1945, 2025",
       "year": 2025,
-      "citations": 16,
-      "url": "https://doi.org/10.1007/s10973-024-13875-1",
+      "citations": 19,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:4JMBOYKVnBMC",
       "doi": "10.1007/s10973-024-13875-1"
     },
     {
       "title": "Transient free convection in a vertical channel with third-kind thermal boundary conditions: A semi-analytical study",
-      "authors": "Basant Kumar Jha, Luqman A. Azeez, Michael O. Oni",
+      "authors": "BK Jha, LA Azeez, MO Oni",
       "venue": "Engineering and Applied Science Letters",
       "year": 2025,
       "citations": 0,
-      "url": "https://doi.org/10.30538/psrp-easl2025.0121",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:k_IJM867U9cC",
       "doi": "10.30538/psrp-easl2025.0121"
     },
     {
-      "title": "Dynamics of accelerating and decelerating flows: A boundary layer examination with non-similar approach and convective boundary condition",
-      "authors": "Mojeed Taiwo Akolade, Gabriel Samaila, Michael O. Oni, Abdulhakeem Yusuf, Peter Bukar Malgwi, Taiwo S. Yusuf, Yusuf Olatunji Tijani",
-      "venue": "International Journal of Non-Linear Mechanics",
+      "title": "Analysis of Joule heating and viscous dissipation on electromagnetohydrodynamic flow with electroosmotic effect in a porous microchannel: A heat transfer miniature enhancement",
+      "authors": "US Rilwan, MO Oni, BK Jha, HM Jibril",
+      "venue": "Heat Transfer 53 (3), 989-1013, 2024",
+      "year": 2024,
+      "citations": 29,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:-f6ydRqryjwC",
+      "doi": "10.1002/htj.22974"
+    },
+    {
+      "title": "Dynamics of accelerating and decelerating flows: a boundary layer examination with non-similar approach and convective boundary condition",
+      "authors": "MT Akolade, G Samaila, MO Oni, A Yusuf, PB Malgwi, TS Yusuf, YO Tijani",
+      "venue": "International Journal of Non-Linear Mechanics 161, 104675, 2024",
       "year": 2024,
       "citations": 17,
-      "url": "https://doi.org/10.1016/j.ijnonlinmec.2024.104675",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:R3hNpaxXUhUC",
       "doi": "10.1016/j.ijnonlinmec.2024.104675"
     },
     {
-      "title": "Effects of joule heating and viscous dissipation on electromagneto-hydrodynamic flow in a microchannel with electroosmotic effect: Enhancement of MEMS cooling",
-      "authors": "Usman S. Rilwan, Michael O. Oni, Haruna M. Jibril, Basant Kumar Jha",
-      "venue": "Proceedings of the Institution of Mechanical Engineers Part N Journal of Nanomaterials Nanoengineering and Nanosystems",
+      "title": "Impact of asymmetric zeta-potential on natural convection flow in a vertical microannulus with electroosmotic and Joule heating effects",
+      "authors": "MO Oni, BK Jha",
+      "venue": "Proceedings of the Institution of Mechanical Engineers, Part N: Journal of …, 2024",
       "year": 2024,
-      "citations": 11,
-      "url": "https://doi.org/10.1177/23977914231217929",
-      "doi": "10.1177/23977914231217929"
+      "citations": 3,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:Wp0gIr-vW9MC",
+      "doi": "10.1177/23977914221103995"
     },
     {
       "title": "Influence of Radially Varying Magnetic Fields and Heat Sources/Sinks on MHD Free-Convection Flow Within a Vertical Concentric Annulus",
-      "authors": "Michael O. Oni, Basant Kumar Jha, Junaid M. Abba, Olaife H. Adebayo",
-      "venue": "Power Engineering and Engineering Thermophysics",
+      "authors": "OO Michael, KJ Basant, MA Junaid, HA Olaife",
+      "venue": "Power Engineering and Engineering Thermophysics 3 (1), 27-44, 2024",
       "year": 2024,
       "citations": 7,
-      "url": "https://doi.org/10.56578/peet030103",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:e5wmG9Sq2KIC",
       "doi": "10.56578/peet030103"
     },
     {
       "title": "Start-off MHD electrokinetic Couette flow in an annulus: A Riemann-sum approximation approach",
-      "authors": "Michael O. Oni, Basant Kumar Jha, Junaid M. Abba, Baba Ibrahim Mundi, Olaife H. Adebayo",
-      "venue": "International Journal of Applied Mechanics and Engineering",
+      "authors": "M Oni, BK Jha, J Abba, B Mundi, O Adebayo",
+      "venue": "International Journal of Applied Mechanics and Engineering 29 (3), 82-100, 2024",
       "year": 2024,
       "citations": 0,
-      "url": "https://doi.org/10.59441/ijame/190397",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:RHpTSmoSYBkC",
       "doi": "10.59441/ijame/190397"
     },
     {
-      "title": "Unsteady natural convection flow in a vertical tube inspired by ramped surface temperature of the tube",
-      "authors": "B. K. Jha, M. O. Oni",
-      "venue": "International Journal of Magnetics and Electromagnetism, 10(1)",
+      "title": "Surface dynamics and thermophysical mechanics on Reiner–Philippoff fluid flow",
+      "authors": "YO Tijani, SD Oloniiju, MO Oni, MT Akolade",
+      "venue": "International Journal of Modern Physics B 38 (25), 2450339, 2024",
       "year": 2024,
-      "citations": 0,
-      "doi": "",
-      "url": ""
+      "citations": 5,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:IWHjjKOFINEC",
+      "doi": "10.1142/s0217979224503399"
     },
     {
-      "title": "Analysis of Joule heating and viscous dissipation on electromagnetohydrodynamic flow with electroosmotic effect in a porous microchannel: A heat transfer miniature enhancement",
-      "authors": "Usman S. Rilwan, Michael O. Oni, Basant Kumar Jha, Haruna M. Jibril",
-      "venue": "Heat Transfer",
-      "year": 2023,
-      "citations": 26,
-      "url": "https://doi.org/10.1002/htj.22974",
-      "doi": "10.1002/htj.22974"
+      "title": "Two-phase numerical simulation for the heat and mass transfer evaluation across a vertical deformable sheet with significant impact of solar radiation and heat source/sink",
+      "authors": "AM Obalalu, MO Oni, U Khan, A Abbas, T Muhammad, A Zaib",
+      "venue": "Arabian Journal for Science and Engineering 49 (8), 11053-11071, 2024",
+      "year": 2024,
+      "citations": 57,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:HDshCWvjkbEC",
+      "doi": "10.1007/s13369-023-08585-z"
+    },
+    {
+      "title": "Unsteady natural convection flow in a vertical tube inspired by ramped surface temperature of the tube",
+      "authors": "JMABIM Basant K. Jha, Michael O. Oni",
+      "venue": "International Journal of Magnetics and Electromagnetism 10 (1), DOI: 10 …, 2024",
+      "year": 2024,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:iH-uZ7U-co4C",
+      "doi": ""
     },
     {
       "title": "Entropy generation analysis of electroosmotic mixed convection flow in vertical microannulus with asymmetric heat fluxes",
-      "authors": "Michael O. Oni, Basant Kumar Jha",
-      "venue": "International Communications in Heat and Mass Transfer",
+      "authors": "MO Oni, BK Jha",
+      "venue": "International Communications in Heat and Mass Transfer 145, 106813, 2023",
       "year": 2023,
       "citations": 18,
-      "url": "https://doi.org/10.1016/j.icheatmasstransfer.2023.106813",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:4DMP91E08xMC",
       "doi": "10.1016/j.icheatmasstransfer.2023.106813"
     },
     {
-      "title": "Heat generation/absorption effect on mixed convection flow in a vertical channel filled with a nanofluid: Exact solution",
-      "authors": "M. O. Oni, B. K. Jha",
-      "venue": "Journal of Oil and Gas Research Reviews, 3(1), 1–14",
+      "title": "Existence of fixed points via C∗-algebra-valued simulation functions with applications",
+      "authors": "MS Shagari, AT Imam, UA Danbaba, J Yahaya, MO Oni, AA Tijjani",
+      "venue": "The Journal of Analysis 31 (2), 1201-1221, 2023",
       "year": 2023,
-      "doi": "",
+      "citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:9ZlFYXVOiuMC",
+      "doi": "10.1007/s41478-022-00509-8"
+    },
+    {
+      "title": "Heat generation/absorption effect on mixed convection flow in a vertical channel filled with a nanofluid: exact solution",
+      "authors": "MO Oni, BK Jha",
+      "venue": "Journal of Oil and Gas Research Reviews 3 (1), 1-14, 2023",
+      "year": 2023,
       "citations": 5,
-      "url": ""
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:dhFuZR0502QC",
+      "doi": ""
+    },
+    {
+      "title": "Joule Heating and Viscous Dissipation on Electromagnetohydrodynamic Flow with Electroosmotic Effect in a Porous Microchannel",
+      "authors": "US Rilwan, M Oni, B Jha, HM Jibril",
+      "venue": "Authorea 2023 (0807), 2023",
+      "year": 2023,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:ZeXyd9-uunAC",
+      "doi": "10.22541/au.169141169.90703328/v1"
     },
     {
       "title": "Role of suction/injection on electromagnetohydrodynamics natural convection flow in a porous microchannel with electroosmotic effect",
-      "authors": "Michael O. Oni, Usman S. Rilwan",
-      "venue": "International Journal of Applied Mechanics and Engineering",
+      "authors": "MO Oni, U Rilwan",
+      "venue": "International Journal of Applied Mechanics and Engineering 28 (4), 94-113, 2023",
       "year": 2023,
-      "citations": 12,
-      "url": "https://doi.org/10.59441/ijame/173021",
+      "citations": 13,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:hFOr9nPyWt4C",
       "doi": "10.59441/ijame/173021"
     },
     {
       "title": "Significance of Heat Source/Sink on Electromagnetohydrodynamics Natural Convection Flow with Electroosmotic Effect",
-      "authors": "Michael O. Oni, Usman S. Rilwan",
+      "authors": "MO Oni, US Rilwan",
       "venue": "Research Square",
       "year": 2023,
-      "citations": 0,
-      "url": "https://doi.org/10.21203/rs.3.rs-3553900/v1",
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:hC7cP41nSMkC",
       "doi": "10.21203/rs.3.rs-3553900/v1"
-    },
-    {
-      "title": "Surface dynamics and thermophysical mechanics on Reiner–Philippoff fluid flow",
-      "authors": "Yusuf Olatunji Tijani, Shina Daniel Oloniiju, Michael O. Oni, Mojeed Taiwo Akolade",
-      "venue": "International Journal of Modern Physics B",
-      "year": 2023,
-      "citations": 5,
-      "url": "https://doi.org/10.1142/s0217979224503399",
-      "doi": "10.1142/s0217979224503399"
     },
     {
       "title": "TRANSIENT FREE CONVECTIVE FLOW IN A VERTICAL CHANNEL WITH THERMAL BOUNDARY CONDITIONS OF THE THIRD KIND: A CAPUTO-FABRIZIO (C.F) AND ATANGANA-BALEANU (ABC) MODELS",
@@ -351,111 +423,84 @@
       "doi": "10.22541/au.169425008.88538210/v1"
     },
     {
-      "title": "Two-Phase Numerical Simulation for the Heat and Mass Transfer Evaluation Across a Vertical Deformable Sheet with Significant Impact of Solar Radiation and Heat Source/Sink",
-      "authors": "Adebowale Martins Obalalu, Michael O. Oni, Umair Ahmed Khan, Amir Abbas, Taseer Muhammad, Aurang Zaib",
-      "venue": "Arabian Journal for Science and Engineering",
-      "year": 2023,
-      "citations": 57,
-      "url": "https://doi.org/10.1007/s13369-023-08585-z",
-      "doi": "10.1007/s13369-023-08585-z"
-    },
-    {
-      "title": "Analysis of Transient Buoyancy/Electroosmotic Driven Flow in a Vertical Microannulus with Velocity-Slip and Temperature-Jump",
-      "authors": "Michael O. Oni, Basant Kumar Jha",
-      "venue": "Engineering Science & Technology",
+      "title": "Analysis of transient buoyancy/electroosmotic driven flow in a vertical microannulus with velocity-slip and temperature-jump",
+      "authors": "MO Oni, BK Jha",
+      "venue": "Engineering Science & Technology, 83-106, 2022",
       "year": 2022,
       "citations": 5,
-      "url": "https://doi.org/10.37256/est.3120221293",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:M3ejUd6NZC8C",
       "doi": "10.37256/est.3120221293"
     },
     {
-      "title": "Existence of fixed points via $$C^*$$-algebra-valued simulation functions with applications",
-      "authors": "Mohammed Shehu Shagari, Abdussamad Tanko Imam, U. A. Danbaba, Jamilu Umar Yahaya, Michael O. Oni, Abba Ali Tijjani",
-      "venue": "The Journal of Analysis",
+      "title": "Interplay of dual streaming potentials on electroosmotic mixed convection flow in a vertical microannulus with Joule heating effect",
+      "authors": "MO Oni, BK Jha, AO Ajibade",
+      "venue": "International Communications in Heat and Mass Transfer 131, 105839, 2022",
       "year": 2022,
-      "citations": 6,
-      "url": "https://doi.org/10.1007/s41478-022-00509-8",
-      "doi": "10.1007/s41478-022-00509-8"
-    },
-    {
-      "title": "Impact of asymmetric zeta-potential on natural convection flow in a vertical microannulus with electroosmotic and Joule heating effects",
-      "authors": "Michael O. Oni, Basant Kumar Jha",
-      "venue": "Proceedings of the Institution of Mechanical Engineers Part N Journal of Nanomaterials Nanoengineering and Nanosystems",
-      "year": 2022,
-      "citations": 3,
-      "url": "https://doi.org/10.1177/23977914221103995",
-      "doi": "10.1177/23977914221103995"
+      "citations": 13,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:4TOpqqG69KYC",
+      "doi": "10.1016/j.icheatmasstransfer.2021.105839"
     },
     {
       "title": "On the mathematical model of Eyring–Powell nanofluid flow with non-linear radiation, variable thermal conductivity and viscosity",
-      "authors": "Matthew Oluwafemi Lawal, Kazeem Babawale Kasali, Hammed Abiodun Ogunseye, Michael O. Oni, Yusuf Olatunji Tijani, Yussuff Titilope Lawal",
-      "venue": "Partial Differential Equations in Applied Mathematics",
+      "authors": "MO Lawal, KB Kasali, HA Ogunseye, MO Oni, YO Tijani, YT Lawal",
+      "venue": "Partial Differential Equations in Applied Mathematics 5, 100318, 2022",
       "year": 2022,
-      "citations": 49,
-      "url": "https://doi.org/10.1016/j.padiff.2022.100318",
+      "citations": 59,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:qxL8FJ1GzNcC",
       "doi": "10.1016/j.padiff.2022.100318"
     },
     {
       "title": "Unsteady Generalized Couette Flow in a Horizontal Channel with Sudden Application or Removal of a Porous Material",
-      "authors": "Michael O. Oni, Aminat Bolatito Yusuf, Taiwo S. Yusuf, Olaife H. Adebayo, Luqman A. Azeez",
-      "venue": "Contemporary Mathematics",
+      "authors": "MO Oni, AB Yusuf, TS Yusuf, OH Adebayo, LA Azeez",
+      "venue": "Contemporary Mathematics, 242-256, 2022",
       "year": 2022,
       "citations": 1,
-      "url": "https://doi.org/10.37256/cm.3220221365",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:mVmsd5A6BfQC",
       "doi": "10.37256/cm.3220221365"
     },
     {
-      "title": "Analysis of Transient Natural Convective Flow of a Nanofluid in a Vertical Tube",
-      "authors": "Basant Kumar Jha, Ali J. Chitumu, Michael O. Oni",
-      "venue": "International Journal of Applied Mechanics and Engineering",
+      "title": "Analysis of transient natural convective flow of a nanofluid in a vertical tube",
+      "authors": "BK Jha, AJ Chitumu, MO Oni",
+      "venue": "International Journal of Applied Mechanics and Engineering 26 (2), 31-46, 2021",
       "year": 2021,
       "citations": 4,
-      "url": "https://doi.org/10.2478/ijame-2021-0018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:_kc_bZDykSQC",
       "doi": "10.2478/ijame-2021-0018"
     },
     {
       "title": "Exact solution of unsteady MHD free convective flow with constant heat flux: revisited",
-      "authors": "Basant Kumar Jha, Luqman A. Azeez, Michael O. Oni",
-      "venue": "International Journal of Applied Power Engineering (IJAPE)",
+      "authors": "BK Jha",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research), 2021",
       "year": 2021,
       "citations": 0,
-      "url": "https://doi.org/10.11591/ijape.v10.i2.pp135-142",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:7PzlFSSx8tAC",
       "doi": "10.11591/ijape.v10.i2.pp135-142"
     },
     {
-      "title": "Interplay of dual streaming potentials on electroosmotic mixed convection flow in a vertical microannulus with Joule heating effect",
-      "authors": "Michael O. Oni, Basant Kumar Jha, Abiodun O. Ajibade",
-      "venue": "International Communications in Heat and Mass Transfer",
-      "year": 2021,
-      "citations": 12,
-      "url": "https://doi.org/10.1016/j.icheatmasstransfer.2021.105839",
-      "doi": "10.1016/j.icheatmasstransfer.2021.105839"
-    },
-    {
       "title": "Joule heating and viscous dissipation effect on electroosmotic mixed convection flow in a vertical microchannel subjected to asymmetric heat fluxes",
-      "authors": "Michael O. Oni, Basant Kumar Jha",
-      "venue": "Propulsion and Power Research",
+      "authors": "MO Oni, BK Jha",
+      "venue": "Propulsion and Power Research 10 (1), 83-94, 2021",
       "year": 2021,
       "citations": 36,
-      "url": "https://doi.org/10.1016/j.jppr.2021.01.001",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:YOwf2qJgpHMC",
       "doi": "10.1016/j.jppr.2021.01.001"
     },
     {
       "title": "Electroosmotic natural convection flow in a vertical microchannel with asymmetric heat fluxes",
-      "authors": "Michael O. Oni, Basant Kumar Jha",
-      "venue": "SN Applied Sciences",
+      "authors": "MO Oni, BK Jha",
+      "venue": "SN Applied Sciences 2 (10), 1638, 2020",
       "year": 2020,
       "citations": 18,
-      "url": "https://doi.org/10.1007/s42452-020-03413-7",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:Zph67rFs4hoC",
       "doi": "10.1007/s42452-020-03413-7"
     },
     {
       "title": "Heat transfer analysis of mixed convection flow in a vertical microchannel with electrokinetic effect",
-      "authors": "Michael O. Oni, Basant Kumar Jha",
-      "venue": "GEM - International Journal on Geomathematics",
+      "authors": "MO Oni, BK Jha",
+      "venue": "GEM-International Journal on Geomathematics 11 (1), 29, 2020",
       "year": 2020,
       "citations": 17,
-      "url": "https://doi.org/10.1007/s13137-020-00165-9",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:ULOm3_A8WrAC",
       "doi": "10.1007/s13137-020-00165-9"
     },
     {
@@ -468,31 +513,49 @@
       "doi": "10.31031/sbb.2020.04.000578"
     },
     {
-      "title": "Nonlinear Mixed Convection Flow in an Inclined Channel with Time-Periodic Boundary Conditions",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "International Journal of Applied and Computational Mathematics",
+      "title": "Nonlinear mixed convection flow in an inclined channel with time-periodic boundary conditions",
+      "authors": "BK Jha, MO Oni",
+      "venue": "International Journal of Applied and Computational Mathematics 6 (5), 129, 2020",
       "year": 2020,
       "citations": 17,
-      "url": "https://doi.org/10.1007/s40819-020-00880-9",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:KlAtU1dfN6UC",
       "doi": "10.1007/s40819-020-00880-9"
     },
     {
-      "title": "Heat Generation/Absorption Effect on Natural Convection Flow in a Vertical Annulus with Time-Periodic Boundary Conditions",
-      "authors": "Michael O. Oni, Basant Kumar Jha",
-      "venue": "Journal of Aircraft and Spacecraft Technology",
+      "title": "Heat generation/absorption effect on natural convection flow in a vertical annulus with time-periodic boundary conditions",
+      "authors": "MO Oni, BK Jha",
+      "venue": "Journal of Aircraft and Spacecraft technology 3 (1), 183-196, 2019",
       "year": 2019,
       "citations": 20,
-      "url": "https://doi.org/10.3844/jastsp.2019.183.196",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:3fE2CSJIrl8C",
       "doi": "10.3844/jastsp.2019.183.196"
     },
     {
+      "title": "Mathematical modelling of combined pressure driven and electrokinetic effect in a channel with induced magnetic field: an exact solution",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Journal of King Saud University-Science 31 (4), 575-585, 2019",
+      "year": 2019,
+      "citations": 23,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:LkGwnXOMwfcC",
+      "doi": "10.1016/j.jksus.2018.10.009"
+    },
+    {
       "title": "Natural convection flow in a vertical annulus with time-periodic thermal boundary conditions",
-      "authors": "B. K. Jha, Michael O. Oni",
-      "venue": "Propulsion and Power Research",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Propulsion and Power Research 8 (1), 47-55, 2019",
       "year": 2019,
       "citations": 27,
-      "url": "https://doi.org/10.1016/j.jppr.2018.12.002",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:2osOgNQ5qMEC",
       "doi": "10.1016/j.jppr.2018.12.002"
+    },
+    {
+      "title": "Role of radial magnetic field on heat transfer in MHD Couette flow in an annulus with viscous and Joule dissipation",
+      "authors": "BK Jha, MO Oni",
+      "venue": "International Journal of Applied Mechanics and Engineering 24 (4), 92-105, 2019",
+      "year": 2019,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:MXK_kJrjxJIC",
+      "doi": ""
     },
     {
       "title": "Role of Sudden Application or Withdrawal of Magnetic Field on MHD Couette Flow",
@@ -504,148 +567,148 @@
       "doi": "10.2478/ijame-2019-0051"
     },
     {
+      "title": "Steady Fully Developed Mixed Convection Flow in a Vertical Channel with Heat and Mass Transfer and Temperature-Dependent Viscosity: An Exact Solution.",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Zeitschrift für Naturforschung Section A: A Journal of Physical Sciences 74 …, 2019",
+      "year": 2019,
+      "citations": 5,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:UebtZRa9Y70C",
+      "doi": "10.1515/zna-2018-0367"
+    },
+    {
       "title": "Theoretical analysis of transient natural convection flow in a vertical microchannel with electrokinetic effect",
-      "authors": "Michael O. Oni, Basant Kumar Jha",
-      "venue": "Journal of Taibah University for Science",
+      "authors": "MO Oni, BK Jha",
+      "venue": "Journal of Taibah University for Science 13 (1), 1087-1099, 2019",
       "year": 2019,
       "citations": 24,
-      "url": "https://doi.org/10.1080/16583655.2019.1682830",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:5nxA0vEk-isC",
       "doi": "10.1080/16583655.2019.1682830"
     },
     {
-      "title": "Theory of fully developed mixed convection including flow reversal: A nonlinear Boussinesq approximation approach",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "Heat Transfer-Asian Research",
+      "title": "Theory of fully developed mixed convection including flow reversal: a nonlinear Boussinesq approximation approach",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Heat Transfer—Asian Research 48 (8), 3477-3488, 2019",
       "year": 2019,
       "citations": 26,
-      "url": "https://doi.org/10.1002/htj.21550",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:0EnyYjriUFMC",
       "doi": "10.1002/htj.21550"
     },
     {
+      "title": "Unsteady hydromagnetic-free convection flow with suction/injection",
+      "authors": "BK Jha, LA Azeez, MO Oni",
+      "venue": "Journal of Taibah University for Science 13 (1), 136-145, 2019",
+      "year": 2019,
+      "citations": 26,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:WF5omc3nYNoC",
+      "doi": "10.1080/16583655.2018.1545624"
+    },
+    {
+      "title": "An analytical solution for temperature field around a cylindrical surface subjected to a time dependent heat flux: an alternative approach",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Alexandria Engineering Journal 57 (2), 927-929, 2018",
+      "year": 2018,
+      "citations": 12,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:qjMakFHDy7sC",
+      "doi": "10.1016/j.aej.2017.01.003"
+    },
+    {
       "title": "Electromagnetic natural convection flow in a vertical microchannel with Joule heating: exact solution",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "Journal of Taibah University for Science",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Journal of Taibah University for Science 12 (5), 661-668, 2018",
       "year": 2018,
       "citations": 20,
-      "url": "https://doi.org/10.1080/16583655.2018.1494423",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:ufrVoPGSRksC",
       "doi": "10.1080/16583655.2018.1494423"
     },
     {
       "title": "Entropy generation under the influence of radial magnetic field and viscous dissipation of generalized Couette flow in an annulus",
-      "authors": "Taiwo S. Yusuf, Michael O. Oni",
-      "venue": "Propulsion and Power Research",
+      "authors": "TS Yusuf, MO Oni",
+      "venue": "Propulsion and Power Research 7 (4), 342-352, 2018",
       "year": 2018,
       "citations": 21,
-      "url": "https://doi.org/10.1016/j.jppr.2018.11.005",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:roLk4NBRz8UC",
       "doi": "10.1016/j.jppr.2018.11.005"
     },
     {
-      "title": "Fully developed mixed convection flow in a vertical channel with electrokinetic effects",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "Multidiscipline Modeling in Materials and Structures",
+      "title": "Fully developed mixed convection flow in a vertical channel with electrokinetic effects: exact solution",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Multidiscipline Modeling in Materials and Structures 14 (5), 1031-1041, 2018",
       "year": 2018,
       "citations": 13,
-      "url": "https://doi.org/10.1108/mmms-10-2017-0123",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:UeHWp8X0CEIC",
       "doi": "10.1108/mmms-10-2017-0123"
     },
     {
-      "title": "Mathematical modelling of combined pressure driven and electrokinetic effect in a channel with induced magnetic field: An exact solution",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "Journal of King Saud University - Science",
+      "title": "Impact of mode of application of magnetic field on rate of heat transfer of rarefied gas flows in a microtube",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Alexandria engineering journal 57 (3), 1955-1962, 2018",
       "year": 2018,
-      "citations": 23,
-      "url": "https://doi.org/10.1016/j.jksus.2018.10.009",
-      "doi": "10.1016/j.jksus.2018.10.009"
+      "citations": 13,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:Y0pCki6q_DkC",
+      "doi": "10.1016/j.aej.2017.03.029"
     },
     {
       "title": "Mixed convection flow in a vertical channel with temperature dependent viscosity and flow reversal: An exact solution",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "International Journal of Heat and Technology",
+      "authors": "BK Jha, MO Oni",
+      "venue": "International Journal of Heat and Technology 36 (2), 607-613, 2018",
       "year": 2018,
       "citations": 23,
-      "url": "https://doi.org/10.18280/ijht.360225",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:8k81kl-MbHgC",
       "doi": "10.18280/ijht.360225"
     },
     {
       "title": "Natural convection flow in a vertical micro-annulus with time-periodic thermal boundary conditions: An exact solution",
-      "authors": "B. K. Jha, M. O. Oni",
-      "venue": "Multidiscipline Modeling in Materials and Structures",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Multidiscipline Modeling in Materials and Structures 14 (5), 1064-1081, 2018",
       "year": 2018,
       "citations": 6,
-      "doi": "10.1108/mmms-09-2017-0111",
-      "url": "https://doi.org/10.1108/mmms-09-2017-0111"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:YsMSGLbcyi4C",
+      "doi": "10.1108/mmms-09-2017-0111"
     },
     {
-      "title": "Role of magnetic field on mixed convective flow between two concentric microtubes with heat generation/absorption: An exact solution",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "Proceedings of the Institution of Mechanical Engineers Part N Journal of Nanomaterials Nanoengineering and Nanosystems",
+      "title": "Role of magnetic field on mixed convective flow between two concentric microtubes with heat generation/absorption: an exact solution",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Proceedings of the Institution of Mechanical Engineers, Part N: Journal of …, 2018",
       "year": 2018,
       "citations": 11,
-      "url": "https://doi.org/10.1177/2397791418776520",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:hqOjcs7Dif8C",
       "doi": "10.1177/2397791418776520"
     },
     {
-      "title": "Steady Fully Developed Mixed Convection Flow in a Vertical Channel with Heat and Mass Transfer and Temperature-Dependent Viscosity: An Exact Solution",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "Zeitschrift für Naturforschung A",
+      "title": "Steady fully developed mixed convection flow in a vertical micro-concentric-annulus with heat generating/absorbing fluid: an exact solution",
+      "authors": "BK Jha, MO Oni, B Aina",
+      "venue": "Ain Shams Engineering Journal 9 (4), 1289-1301, 2018",
       "year": 2018,
-      "citations": 5,
-      "url": "https://doi.org/10.1515/zna-2018-0367",
-      "doi": "10.1515/zna-2018-0367"
+      "citations": 77,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:d1gkVwhDpl0C",
+      "doi": "10.1016/j.asej.2016.08.005"
     },
     {
       "title": "Transient natural convection flow between vertical concentric cylinders heated/cooled asymmetrically",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "Proceedings of the Institution of Mechanical Engineers Part A Journal of Power and Energy",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Proceedings of the Institution of Mechanical Engineers, Part A: Journal of …, 2018",
       "year": 2018,
       "citations": 30,
-      "url": "https://doi.org/10.1177/0957650918758743",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:Se3iqnhoufwC",
       "doi": "10.1177/0957650918758743"
     },
     {
-      "title": "Unsteady hydromagnetic-free convection flow with suction/injection",
-      "authors": "Basant Kumar Jha, Luqman A. Azeez, Michael O. Oni",
-      "venue": "Journal of Taibah University for Science",
-      "year": 2018,
-      "citations": 26,
-      "url": "https://doi.org/10.1080/16583655.2018.1545624",
-      "doi": "10.1080/16583655.2018.1545624"
-    },
-    {
-      "title": "An analytical solution for temperature field around a cylindrical surface subjected to a time dependent heat flux: An alternative approach",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "Alexandria Engineering Journal",
-      "year": 2017,
-      "citations": 12,
-      "url": "https://doi.org/10.1016/j.aej.2017.01.003",
-      "doi": "10.1016/j.aej.2017.01.003"
-    },
-    {
       "title": "Combined effect of heat source, porosity and thermal radiation on mixed convection flow in a vertical annulus: An exact solution",
-      "authors": "Michael O. Oni",
-      "venue": "Engineering Science and Technology an International Journal",
+      "authors": "MO Oni",
+      "venue": "Engineering Science and Technology, an International Journal 20 (2), 518-527, 2017",
       "year": 2017,
       "citations": 56,
-      "url": "https://doi.org/10.1016/j.jestch.2016.12.009",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:IjCSPb-OGe4C",
       "doi": "10.1016/j.jestch.2016.12.009"
     },
     {
-      "title": "Impact of mode of application of magnetic field on rate of heat transfer of rarefied gas flows in a microtube",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "Alexandria Engineering Journal",
-      "year": 2017,
-      "citations": 13,
-      "url": "https://doi.org/10.1016/j.aej.2017.03.029",
-      "doi": "10.1016/j.aej.2017.03.029"
-    },
-    {
       "title": "Laminar Convection in a Uniformly Heated Vertical Porous Channel Revisited",
-      "authors": "B. K. Jha, M. O. Oni",
-      "venue": "Advances in Applied Sciences",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Advances in Applied Sciences 2 (3), 28-32, 2017",
       "year": 2017,
       "citations": 1,
-      "doi": "10.11648/j.aas.20170203.11",
-      "url": "https://doi.org/10.11648/j.aas.20170203.11"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:W7OEmFMy1HYC",
+      "doi": "10.11648/j.aas.20170203.11"
     },
     {
       "title": "Unsteady couette flow in an annulus with combined mode of magnetic field application: A generalization",
@@ -657,49 +720,58 @@
       "doi": "10.18280/mmep.040405"
     },
     {
+      "title": "Unsteady couette flow in an annulus with combined mode of magnetic field application: A generalization Unsteady couette flow in an annulus with combined mode of magnetic field …",
+      "authors": "MO Oni, TS Yusuf",
+      "venue": "MATHEMATICAL MODELLING OF ENGINEERING PROBLEMS 4 (4), 168-172, 2017",
+      "year": 2017,
+      "citations": 3,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:kNdYIx-mwKoC",
+      "doi": ""
+    },
+    {
+      "title": "A STUDY ON NATURAL CONVECTION FLOW IN CYLINDRICAL GEOMETRIES WITH TIME-PERIODIC HEAT INPUT",
+      "authors": "MO ONI",
+      "venue": "",
+      "year": 2016,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:TFP_iSt0sucC",
+      "doi": ""
+    },
+    {
       "title": "Natural convection flow in a vertical tube inspired by time-periodic heating",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "Alexandria Engineering Journal",
+      "authors": "BK Jha, MO Oni",
+      "venue": "Alexandria Engineering Journal 55 (4), 3145-3151, 2016",
       "year": 2016,
       "citations": 21,
-      "url": "https://doi.org/10.1016/j.aej.2016.08.025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:Tyk-4Ss8FVUC",
       "doi": "10.1016/j.aej.2016.08.025"
     },
     {
-      "title": "Steady fully developed mixed convection flow in a vertical micro-concentric-annulus with heat generating/absorbing fluid: An exact solution",
-      "authors": "Basant Kumar Jha, Michael O. Oni, Babatunde Aina",
-      "venue": "Ain Shams Engineering Journal",
-      "year": 2016,
-      "citations": 77,
-      "url": "https://doi.org/10.1016/j.asej.2016.08.005",
-      "doi": "10.1016/j.asej.2016.08.005"
-    },
-    {
       "title": "An introduction to the concept of paraletrix, a generalization of rhotrix",
-      "authors": "A. Aminu, M. O. Oni",
-      "venue": "Afrika Matematika, 26(5–6), 871–885",
+      "authors": "A Aminu, O Michael",
+      "venue": "Afrika Matematika 26 (5), 871-885, 2015",
       "year": 2015,
-      "doi": "10.1007/s13370-014-0251-1",
       "citations": 16,
-      "url": "https://doi.org/10.1007/s13370-014-0251-1"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:u5HHmVD_uO8C",
+      "doi": "10.1007/s13370-014-0251-1"
     },
     {
       "title": "The exponential paraletrix",
-      "authors": "M. O. Oni, A. Aminu",
-      "venue": "Journal of the Nigerian Association of Mathematical Physics, 31, 271–278",
+      "authors": "MO Oni, A Aminu",
+      "venue": "Journal of the Nigerian Association of Mathematical Physics 31, 271-278, 2015",
       "year": 2015,
       "citations": 2,
-      "doi": "",
-      "url": ""
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:_Qo2XoVZTnwC",
+      "doi": ""
     },
     {
-      "title": "Adjacent rhotrix of a complete, simple and undirected graph",
-      "authors": "A. Aminu, M. O. Oni",
-      "venue": "Journal of the Nigerian Association of Mathematical Physics, 25(2), 267–274",
+      "title": "Adjacent Rhotrix of a Complete, Simple and Undirected Graph",
+      "authors": "A Aminu, O Michael",
+      "venue": "Journal of the Nigerian Association of Mathematical Physics 25 (2), 267-274, 2013",
       "year": 2013,
       "citations": 4,
-      "doi": "",
-      "url": ""
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:u-x6o8ySG0sC",
+      "doi": ""
     }
   ]
 }
