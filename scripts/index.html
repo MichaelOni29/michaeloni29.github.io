@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Michael O. Oni</title>
+<meta name="description" content="Dr. Michael O. Oni — applied mathematician working on heat transfer, fluid mechanics and scientific machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column (~68ch) with a two-part hero (identity + portrait), then stacked sections. */
+:root{
+  --bg:#f6f8f9; --surface:#ffffff; --fg:#14232b; --muted:#5a6a72; --line:#d9e1e5;
+  --accent:#0d5c73; --accent-soft:#e1eef2; --heat:#c4612a; --heat-soft:#f8e9df;
+  --font-display:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --font-body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --s1:.25rem;--s2:.5rem;--s3:.75rem;--s4:1rem;--s5:1.5rem;--s6:2rem;--s7:3rem;--s8:4.5rem;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e171b; --surface:#152227; --fg:#e4ecef; --muted:#93a5ad; --line:#26363d;
+  --accent:#6cc0d6; --accent-soft:#17323a; --heat:#ec9561; --heat-soft:#3a2418; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e171b; --surface:#152227; --fg:#e4ecef; --muted:#93a5ad; --line:#26363d;
+  --accent:#6cc0d6; --accent-soft:#17323a; --heat:#ec9561; --heat-soft:#3a2418; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:1rem;line-height:1.6;margin:0}
+.wrap{max-width:68rem;margin:0 auto;padding-inline:clamp(1rem,4vw,2.5rem);padding-block:0 var(--s8)}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+h1,h2,h3{font-family:var(--font-display);text-wrap:balance;margin:0;line-height:1.15}
+h2{font-size:1.65rem;font-weight:600}
+.eyebrow{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+/* top bar */
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.topbar .inner{max-width:68rem;margin:0 auto;padding:var(--s3) clamp(1rem,4vw,2.5rem);display:flex;gap:var(--s5);align-items:center;justify-content:space-between;flex-wrap:wrap}
+.topbar .mark{font-family:var(--font-display);font-weight:600;font-size:1.05rem;color:var(--fg);text-decoration:none}
+.topbar nav{display:flex;gap:var(--s4);flex-wrap:wrap;font-size:.9rem}
+.topbar nav a{color:var(--muted);text-decoration:none}
+.topbar nav a:hover{color:var(--accent)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:var(--s7);align-items:center;padding-block:var(--s8) var(--s7)}
+.hero h1{font-size:clamp(2.3rem,5.5vw,3.6rem);font-weight:700;letter-spacing:-.01em}
+.hero .role{font-size:1.1rem;margin-top:var(--s3);color:var(--fg)}
+.hero .aff{color:var(--muted);margin-top:var(--s2);font-size:.95rem}
+.hero .aff div+div{margin-top:2px}
+.hero p.lede{max-width:62ch;margin:var(--s5) 0 0}
+.portrait{margin:0;justify-self:end;width:100%;max-width:300px}
+.portrait img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:12px;border:1px solid var(--line);background:var(--surface);box-shadow:0 1px 2px rgba(0,0,0,.06),0 12px 32px -12px rgba(13,92,115,.28)}
+
+.cvbtn{display:inline-flex;align-items:center;gap:.5rem;margin-top:var(--s4);padding:.6rem 1.1rem;border-radius:999px;background:var(--accent);color:var(--bg);font-weight:600;font-size:.92rem;text-decoration:none}
+.cvbtn::before{content:"↓";font-family:var(--font-mono)}
+.cvbtn:hover{filter:brightness(1.1)}
+.cvbtn.small{margin-top:0;padding:.4rem .85rem;font-size:.82rem}
+
+/* profile links */
+.profiles{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s5)}
+.profiles a{display:inline-flex;align-items:center;gap:.45rem;padding:.42rem .8rem;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--fg);text-decoration:none;font-size:.88rem;font-weight:500}
+.profiles a:hover{border-color:var(--accent);color:var(--accent)}
+.profiles a .tag{font-family:var(--font-mono);font-size:.68rem;color:var(--muted)}
+.profiles a.pending{border-style:dashed}
+
+/* metrics */
+.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:10px;background:var(--surface);overflow:hidden}
+.metric{padding:var(--s4) var(--s5)}
+.metric+.metric{border-left:1px solid var(--line)}
+.metric .v{font-family:var(--font-mono);font-size:1.7rem;font-weight:500;font-variant-numeric:tabular-nums}
+.metric .k{font-size:.8rem;color:var(--muted)}
+.sync{font-family:var(--font-mono);font-size:.72rem;color:var(--muted);margin-top:var(--s2)}
+
+section{padding-top:var(--s8)}
+section>header{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:baseline;justify-content:space-between;margin-bottom:var(--s5);border-bottom:1px solid var(--line);padding-bottom:var(--s3)}
+
+/* interests */
+.interests{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s5)}
+.interest h3{font-size:1.15rem;font-weight:600;margin-bottom:var(--s2)}
+.interest p{margin:0;color:var(--muted);font-size:.95rem}
+.interest .terms{margin-top:var(--s3);display:flex;flex-wrap:wrap;gap:.35rem}
+.chip{font-family:var(--font-mono);font-size:.7rem;padding:.15rem .5rem;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
+.chip.heat{background:var(--heat-soft);color:var(--heat)}
+
+/* publications */
+.controls{display:flex;flex-wrap:wrap;gap:var(--s2);margin-bottom:var(--s4)}
+.controls input,.controls select{font:inherit;font-size:.9rem;padding:.5rem .7rem;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg)}
+.controls input{flex:1 1 16rem;min-width:0}
+.notice{font-size:.85rem;padding:var(--s3) var(--s4);border-radius:6px;background:var(--heat-soft);color:var(--fg);margin-bottom:var(--s4)}
+.year-group+.year-group{margin-top:var(--s5)}
+.year-group h3{font-family:var(--font-mono);font-size:.85rem;font-weight:500;color:var(--muted);margin-bottom:var(--s2)}
+.pubs{list-style:none;margin:0;padding:0}
+.pub{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:var(--s4);padding:var(--s3) 0;border-top:1px solid var(--line)}
+.pub:first-child{border-top:0}
+.pub .t{font-family:var(--font-display);font-size:1.07rem;font-weight:600;line-height:1.35}
+.pub .t a{color:var(--fg);text-decoration:none}
+.pub .t a:hover{color:var(--accent);text-decoration:underline}
+.pub .a{font-size:.88rem;color:var(--muted);margin-top:2px}
+.pub .a b{color:var(--fg);font-weight:600}
+.pub .j{font-size:.88rem;font-style:italic;margin-top:2px}
+.pub .doi{font-family:var(--font-mono);font-size:.72rem;margin-top:var(--s1)}
+.pub .c{text-align:right;font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:.95rem;min-width:4.5rem}
+.pub .c small{display:block;font-size:.65rem;color:var(--muted)}
+.empty{color:var(--muted);padding:var(--s5) 0}
+.pub .tools{margin-top:var(--s2);display:flex;gap:var(--s2);flex-wrap:wrap}
+button.cite{font:inherit;font-family:var(--font-mono);font-size:.7rem;padding:.2rem .6rem;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--muted);cursor:pointer}
+button.cite:hover,button.cite[aria-expanded="true"]{border-color:var(--accent);color:var(--accent)}
+.bib{margin-top:var(--s2);border:1px solid var(--line);border-radius:6px;background:var(--surface);overflow:hidden}
+.bib pre{margin:0;padding:var(--s3);font-family:var(--font-mono);font-size:.74rem;line-height:1.5;overflow-x:auto;white-space:pre;color:var(--fg)}
+.bib .bar{display:flex;justify-content:space-between;align-items:center;gap:var(--s2);padding:.35rem var(--s3);border-bottom:1px solid var(--line);font-size:.75rem;color:var(--muted)}
+.bib .bar button{font:inherit;font-size:.75rem;padding:.2rem .6rem;border-radius:4px;border:1px solid var(--accent);background:var(--accent);color:var(--bg);cursor:pointer}
+
+/* news */
+.news{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.news li{display:grid;grid-template-columns:6.5rem minmax(0,1fr);gap:var(--s4);padding:var(--s3) 0;border-top:1px solid var(--line)}
+.news li:first-child{border-top:0;padding-top:0}
+.news .d{font-family:var(--font-mono);font-size:.8rem;color:var(--heat);padding-top:.15rem;font-variant-numeric:tabular-nums}
+button.more{font:inherit;font-size:.85rem;margin-top:var(--s3);padding:.4rem .9rem;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--accent);cursor:pointer}
+
+/* selected publications */
+.selected{list-style:none;margin:0;padding:0;counter-reset:sel}
+.selected li{display:grid;grid-template-columns:3rem minmax(0,1fr) auto;gap:var(--s4);padding:var(--s5) 0;border-top:1px solid var(--line)}
+.selected li:first-child{border-top:0;padding-top:0}
+.selected li::before{counter-increment:sel;content:counter(sel,decimal-leading-zero);font-family:var(--font-display);font-size:1.6rem;font-weight:600;color:var(--heat);line-height:1.1}
+.selected .jr{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+.selected .t{font-family:var(--font-display);font-size:1.2rem;font-weight:600;line-height:1.3;margin-top:.2rem}
+.selected .t a{color:var(--fg);text-decoration:none}
+.selected .t a:hover{color:var(--accent);text-decoration:underline}
+.selected .note{margin:.5rem 0 0;max-width:68ch}
+.selected .a{font-size:.85rem;color:var(--muted);margin-top:.4rem}
+.selected .a b{color:var(--fg)}
+.selected .c{text-align:right;font-family:var(--font-mono);font-size:1.3rem;font-variant-numeric:tabular-nums}
+.selected .c small{display:block;font-size:.65rem;color:var(--muted)}
+
+/* cv blocks */
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s7)}
+.timeline{list-style:none;margin:0;padding:0;display:grid;gap:var(--s4)}
+.timeline li{display:grid;grid-template-columns:6.5rem minmax(0,1fr);gap:var(--s4)}
+.timeline .when{font-family:var(--font-mono);font-size:.8rem;color:var(--muted);padding-top:.15rem;font-variant-numeric:tabular-nums}
+.timeline .what{font-weight:600}
+.timeline .where{color:var(--muted);font-size:.92rem}
+.list{margin:0;padding-left:1.1rem;display:grid;gap:var(--s2)}
+.list li::marker{color:var(--heat)}
+
+.stat{font-family:var(--font-mono);font-weight:500;color:var(--heat)}
+.journals{margin:0;font-size:.9rem;color:var(--muted);line-height:1.7}
+.sup{list-style:none;margin:0;padding:0;display:grid;gap:var(--s3)}
+.sup li{display:grid;grid-template-columns:2.6rem minmax(0,1fr);gap:var(--s3);font-size:.93rem}
+.sup .lvl{font-family:var(--font-mono);font-size:.7rem;padding:.12rem 0;border-radius:4px;text-align:center;background:var(--accent-soft);color:var(--accent);align-self:start;margin-top:.15rem}
+.sup .st{display:block;font-size:.8rem;color:var(--muted)}
+
+/* contact */
+.emails{display:grid;gap:var(--s2)}
+.erow{display:flex;flex-wrap:wrap;gap:var(--s2);align-items:center}
+.erow .lab{font-size:.8rem;color:var(--muted);min-width:5.5rem}
+.contact{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center}
+.email{font-family:var(--font-mono);font-size:1rem;padding:.5rem .8rem;border:1px solid var(--line);border-radius:6px;background:var(--surface);user-select:all}
+button.copy{font:inherit;font-size:.88rem;padding:.5rem .9rem;border-radius:6px;border:1px solid var(--accent);background:var(--accent);color:var(--bg);cursor:pointer}
+footer{margin-top:var(--s8);padding-top:var(--s4);border-top:1px solid var(--line);font-size:.8rem;color:var(--muted)}
+
+@media (max-width:820px){
+  .hero{grid-template-columns:1fr;gap:var(--s5);padding-block:var(--s7) var(--s5)}
+  .portrait{max-width:180px;justify-self:start;order:-1}
+  .interests,.two{grid-template-columns:1fr}
+  .metrics{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .metric:nth-child(3){border-left:0}
+  .metric:nth-child(n+3){border-top:1px solid var(--line)}
+}
+@media (max-width:480px){
+  .timeline li,.news li{grid-template-columns:1fr;gap:0}
+  .selected li{grid-template-columns:minmax(0,1fr) auto}
+  .selected li::before{grid-column:1/-1;font-size:1.2rem}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<script>
+/* ============================================================
+   EDIT THIS BLOCK — everything personal lives here.
+   Leave an ID as "" and the link falls back to a profile search.
+   ============================================================ */
+window.SITE = {
+  name: "Michael O. Oni",
+  honorific: "Dr.",
+  role: "Applied Mathematician · Heat Transfer & Scientific Machine Learning",
+  affiliations: [
+    "Postdoctoral Fellow, Unit for Data Science and Computing, North-West University, South Africa",
+    "Senior Lecturer, Department of Mathematics, Ahmadu Bello University, Zaria, Nigeria"
+  ],
+  bio: "I build mathematical and computational models of heat and fluid transport, from electroosmotic and magnetohydrodynamic flow in microchannels and annuli to non-Fourier conduction in thermal management systems. Over the past decade this work has produced more than 60 journal articles. My current work pairs spectral and semi-analytical solvers with physics-informed neural networks, with a focus on methods that stay physically trustworthy and on problems that matter for African infrastructure and industry.",
+  emails: ["mooni@abu.edu.ng", "michaeloni29@gmail.com"],
+  ids: {
+    googleScholar: "7PQsNQ4AAAAJ",
+    scopus: "57191926774",
+    orcid: "0000-0002-0272-4825",
+    wos: "X-7347-2019",
+    researchgate: "Michael-Oni"
+  },
+  highlightAuthor: ["M. O. Oni", "MO Oni", "M. Oni", "Oni"],  // first match in each author list is bolded
+
+  // Visitor statistics (GoatCounter). Must match the code you registered at goatcounter.com.
+  analytics: "michaeloni",
+
+  // Selected publications: "match" is the start of the paper's title in publications.json.
+  selected: [
+    { match: "Steady fully developed mixed convection flow in a vertical micro-concentric",
+      note: "A closed-form solution for fully developed mixed convection in a vertical micro-concentric annulus with a heat-generating or heat-absorbing fluid. It shows how internal heat sources and sinks reshape the velocity and temperature fields in microscale annular gaps, and it is my most-cited paper." },
+    { match: "Thermodynamic assessment of 3D fractional dual-phase lag",
+      note: "Models heat transport in annular cooling channels for 3D-stacked integrated circuits with a fractional dual-phase-lag (non-Fourier) conduction law, and assesses the design thermodynamically. It comes from my postdoctoral programme at North-West University and marks the move toward non-Fourier thermal management." },
+    { match: "Interplay of dual streaming potentials on electroosmotic mixed convection",
+      note: "Electroosmotic mixed convection in a vertical microannulus where the two walls carry different streaming potentials, with Joule heating. It shows how unequal wall potentials can be used to steer flow and heat transfer in electrokinetic microdevices." },
+    { match: "Joule heating and viscous dissipation effect on electroosmotic mixed convection",
+      note: "Electroosmotic mixed convection in a vertical microchannel with asymmetric wall heat fluxes, including Joule heating and viscous dissipation, the two internal heating mechanisms that matter most in electrokinetic microcooling." },
+    { match: "Combined effect of heat source, porosity and thermal radiation",
+      note: "A single-author exact solution for mixed convection in a vertical annulus where a heat source, a porous medium and thermal radiation act together, giving a benchmark for porous annular heat exchangers." }
+  ],
+
+  // News: newest first. Dates are free text.
+  news: [
+    { date: "Oct 2026", text: "New paper in <i>Next Materials</i> on dual streaming potentials in electroosmotic magnetohydrodynamic nanofluid flow with an induced magnetic field." },
+    { date: "Aug 2026", text: "Paper in <i>Computational Geosciences</i> on coupled electro-hydrodynamic and thermal transport in two-phase porous–fluid annular channels for enhanced oil recovery." },
+    { date: "2026", text: "Published in the <i>International Journal of Heat and Mass Transfer</i>: fractional dual-phase-lag thermal transport in annular cooling architectures for 3D-stacked ICs." },
+    { date: "2026", text: "Joined the Unit for Data Science and Computing, North-West University, South Africa, as a Postdoctoral Fellow." },
+    { date: "2026", text: "Three MSc students graduated: Shakira Adebayo, Ahmed Abdulmalik and Vampah Tizhe Peter." },
+    { date: "2026", text: "Built an app for the Nigerian Young Academy celebrating members promoted to Professor." },
+    { date: "2025", text: "Promoted to Senior Lecturer, Department of Mathematics, Ahmadu Bello University." },
+    { date: "2025", text: "Awarded a TETFund Institution-Based Research (IBR) grant as Principal Investigator." },
+    { date: "2025", text: "Elected a member of the Nigerian Young Academy." }
+  ]
+};
+</script>
+
+</head>
+<body>
+<div class="topbar"><div class="inner">
+  <a class="mark" href="#top">M. O. Oni</a>
+  <nav aria-label="Sections">
+    <a href="#news">News</a><a href="#research">Research</a><a href="#selected">Selected work</a><a href="#publications">Publications</a><a href="#students">Students</a><a href="#cv">CV</a><a href="#contact">Contact</a>
+  </nav>
+</div></div>
+
+<main class="wrap" id="top">
+  <div class="hero">
+    <div>
+      <div class="eyebrow">Fluid mechanics · Heat transfer · Applied mathematics</div>
+      <h1 id="name" style="margin-top:.6rem">Dr. Michael O. Oni</h1>
+      <div class="role" id="role"></div>
+      <div class="aff" id="aff"></div>
+      <p class="lede" id="bio"></p>
+      <div class="profiles" id="profiles" aria-label="Research profiles"></div>
+      <a class="cvbtn" href="cv.pdf" download="Michael-O-Oni-CV.pdf">Download CV (PDF)</a>
+    </div>
+    <figure class="portrait">
+      <img src="photo.jpg" alt="Portrait of Dr. Michael O. Oni" width="560" height="700">
+    </figure>
+  </div>
+
+  <div class="metrics" id="metrics">
+    <div class="metric"><div class="v" id="m-cit">—</div><div class="k">Citations</div></div>
+    <div class="metric"><div class="v" id="m-h">—</div><div class="k">h-index</div></div>
+    <div class="metric"><div class="v" id="m-i10">—</div><div class="k">i10-index</div></div>
+    <div class="metric"><div class="v" id="m-n">—</div><div class="k">Publications</div></div>
+  </div>
+  <div class="sync" id="sync">Loading publication data…</div>
+
+  <section id="news">
+    <header><h2>News</h2><span class="eyebrow">Latest</span></header>
+    <ul class="news" id="news-list"></ul>
+    <button class="more" id="news-more" type="button" hidden>Show all news</button>
+  </section>
+
+  <section id="research">
+    <header><h2>Research</h2><span class="eyebrow">Three connected lines</span></header>
+    <div class="interests">
+      <div class="interest">
+        <h3>Trustworthy scientific ML</h3>
+        <p>Physics-informed neural networks and neural operators checked against spectral and semi-analytical solutions, with attention to when learned solvers break physical laws.</p>
+        <div class="terms"><span class="chip">PINNs</span><span class="chip">BSCM</span><span class="chip">Laplace–Talbot</span><span class="chip">UQ</span></div>
+      </div>
+      <div class="interest">
+        <h3>Non-Fourier heat transport</h3>
+        <p>Three-phase-lag conduction and thermal waves in porous and layered media, with applications to hypersonic thermal protection and cooling architectures.</p>
+        <div class="terms"><span class="chip heat">TPL model</span><span class="chip heat">thermal waves</span><span class="chip heat">porous annuli</span></div>
+      </div>
+      <div class="interest">
+        <h3>Micro- and reactive flows</h3>
+        <p>Electro-magnetohydrodynamic and electroosmotic microflows, entropy generation, nanofluids, and reactive transport for energy and water applications.</p>
+        <div class="terms"><span class="chip">EMHD</span><span class="chip">EDL</span><span class="chip">entropy generation</span><span class="chip">nanofluids</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="selected">
+    <header><h2>Selected publications</h2><span class="eyebrow">Five papers that define the work</span></header>
+    <ol class="selected" id="selected-list"></ol>
+  </section>
+
+  <section id="publications">
+    <header><h2>All publications</h2><span class="eyebrow" id="pub-source">Synced from Google Scholar &amp; ORCID</span></header>
+    <div class="notice" id="sample-notice" hidden>These are placeholder entries. Your real list appears after the first sync runs (see the setup guide).</div>
+    <div class="controls">
+      <label class="sr" for="q" hidden>Search publications</label>
+      <input id="q" type="search" placeholder="Search title, journal or co-author" aria-label="Search publications">
+      <select id="sort" aria-label="Sort publications">
+        <option value="year">Newest first</option>
+        <option value="cites">Most cited</option>
+      </select>
+    </div>
+    <div id="pub-list"></div>
+  </section>
+
+  <section id="students">
+    <header><h2>Prospective students &amp; collaborators</h2><span class="eyebrow">Open to enquiries</span></header>
+    <div class="two">
+      <div>
+        <p style="margin-top:0;max-width:62ch">I supervise MSc and PhD research at Ahmadu Bello University and welcome collaboration from researchers elsewhere. Projects combine mathematical modelling, numerical analysis and, increasingly, scientific machine learning. Most lead to journal publications during the degree.</p>
+        <div class="eyebrow" style="margin:1.6rem 0 .8rem">Current project areas</div>
+        <ul class="list">
+          <li><b>Physics-informed neural networks</b>: when PINNs fail, stiff and non-Fourier problems, and uncertainty in learned solvers.</li>
+          <li><b>Non-Fourier heat conduction</b>: dual- and three-phase-lag models for electronics cooling and thermal protection.</li>
+          <li><b>Electrokinetic and EMHD microflows</b>: electroosmotic convection, entropy generation and micro-energy harvesting.</li>
+          <li><b>Fractional-order models</b> of convection and transport.</li>
+          <li><b>Applied problems with African relevance</b>: enhanced oil recovery, produced-water treatment and thermal monitoring of power infrastructure.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:.8rem">What helps</div>
+        <ul class="list">
+          <li>A strong first degree in mathematics, physics or engineering.</li>
+          <li>Comfort with differential equations and numerical methods.</li>
+          <li>Some programming in MATLAB, Python or a similar language, or willingness to learn quickly.</li>
+        </ul>
+        <div class="eyebrow" style="margin:1.6rem 0 .8rem">How to get in touch</div>
+        <p style="margin:0">Email me with your CV, academic transcript and a short paragraph on which area interests you and why. Put <b>“Prospective student”</b> or <b>“Collaboration”</b> in the subject line so I see it quickly. Contact details are <a href="#contact">below</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cv">
+    <header><h2>Curriculum vitae</h2><a class="cvbtn small" href="cv.pdf" download="Michael-O-Oni-CV.pdf">Download full CV (PDF)</a></header>
+    <div class="two">
+      <div>
+        <div class="eyebrow" style="margin-bottom:.8rem">Appointments</div>
+        <ul class="timeline">
+          <li><span class="when">2026 – now</span><div><div class="what">Postdoctoral Fellow</div><div class="where">Unit for Data Science and Computing, North-West University, South Africa</div></div></li>
+          <li><span class="when">2025 – now</span><div><div class="what">Senior Lecturer</div><div class="where">Department of Mathematics, Ahmadu Bello University, Zaria</div></div></li>
+          <li><span class="when">2022 – 2025</span><div><div class="what">Lecturer I</div><div class="where">Ahmadu Bello University, Zaria</div></div></li>
+          <li><span class="when">2019 – 2022</span><div><div class="what">Lecturer II</div><div class="where">Ahmadu Bello University, Zaria</div></div></li>
+          <li><span class="when">2016 – 2019</span><div><div class="what">Assistant Lecturer</div><div class="where">Ahmadu Bello University, Zaria</div></div></li>
+          <li><span class="when">2014 – 2016</span><div><div class="what">Graduate Assistant</div><div class="where">Ahmadu Bello University, Zaria</div></div></li>
+        </ul>
+        <div class="eyebrow" style="margin:2rem 0 .8rem">Education</div>
+        <ul class="timeline">
+          <li><span class="when">2021</span><div><div class="what">PhD Mathematics</div><div class="where">Ahmadu Bello University, Zaria. Thesis: <i>A Study on Electroosmotic Natural and Mixed Convection Flows in Vertical Microgeometries with Isothermal and Isoflux Boundary Conditions</i></div></div></li>
+          <li><span class="when">2016</span><div><div class="what">MSc Mathematics</div><div class="where">Ahmadu Bello University, Zaria. Dissertation: <i>A Study on Natural Convection Flow in Cylindrical Geometries with Time-Periodic Heat Input</i></div></div></li>
+          <li><span class="when">2012</span><div><div class="what">BSc (Hons) Mathematics, First Class</div><div class="where">Ahmadu Bello University, Zaria</div></div></li>
+        </ul>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:.8rem">Awards, grants &amp; innovation</div>
+        <ul class="list">
+          <li>Principal Investigator, TETFund Institution-Based Research (IBR) Grant, Ahmadu Bello University (2025).</li>
+          <li>Member, Nigerian Young Academy (2025).</li>
+          <li>Innovation: the <i>paraletrix</i>, a generalization of the rhotrix (<i>Afrika Matematika</i>, 2015).</li>
+          <li>Vice-Chancellor's Award of Excellence, ABU 2011/2012 Convocation (2012).</li>
+          <li>Bronze medal, National Mathematics Competition for University Students (NAMCUS), National Mathematical Centre, Abuja (2012).</li>
+        </ul>
+        <div class="eyebrow" style="margin:2rem 0 .8rem">Peer review</div>
+        <p style="margin:0 0 .6rem"><span class="stat">92</span> verified reviews of <span class="stat">65</span> manuscripts (Web of Science), for journals including</p>
+        <p class="journals"><i>Heat Transfer – Asian Research</i> · <i>ZAMM</i> · <i>Propulsion and Power Research</i> · <i>International Journal of Ambient Energy</i> · <i>Numerical Heat Transfer A &amp; B</i> · <i>Journal of Thermophysics and Heat Transfer</i> · <i>International Journal of Numerical Methods for Heat &amp; Fluid Flow</i> · <i>IEEE Transactions on Industrial Informatics</i> · <i>Physica Scripta</i> · <i>Engineering Applications of Computational Fluid Mechanics</i></p>
+        <div class="eyebrow" style="margin:2rem 0 .8rem">Memberships</div>
+        <ul class="list">
+          <li>Nigerian Young Academy (2025 – now)</li>
+          <li>Mathematical Association of Nigeria (2014 – now)</li>
+          <li>Nigerian Mathematical Society (2015 – 2021)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="two" style="margin-top:3rem">
+      <div>
+        <div class="eyebrow" style="margin-bottom:.8rem">Research supervision</div>
+        <ul class="sup">
+          <li><span class="lvl">PhD</span><div><b>Usman Rilwan</b> · Electroosmotic natural convection of nanofluids with induced magnetic field <span class="st">Major supervisor · ongoing</span></div></li>
+          <li><span class="lvl">PhD</span><div><b>Luqman Azeez</b> · Natural convection of nanofluids in a vertical channel with suction/injection <span class="st">Co-supervisor · ongoing</span></div></li>
+          <li><span class="lvl">PhD</span><div><b>Ismaila Oyelade</b> · Dual-phase-lag natural convection in a vertical channel <span class="st">Co-supervisor · ongoing</span></div></li>
+          <li><span class="lvl">MSc</span><div><b>Fatai Mohammed</b> · Entropy generation with isothermal/isoflux conditions <span class="st">Major supervisor · ongoing</span></div></li>
+          <li><span class="lvl">MSc</span><div><b>Henry Ibrahim</b> · Temperature-dependent viscosity in natural and mixed convection <span class="st">Major supervisor · ongoing</span></div></li>
+          <li><span class="lvl">MSc</span><div><b>Shakira Adebayo</b> · Heat and mass transfer in unsteady EMHD natural convection <span class="st">Major supervisor · 2026</span></div></li>
+          <li><span class="lvl">MSc</span><div><b>Ahmed Abdulmalik</b> · Hall current effects on free convection in a porous channel <span class="st">Major supervisor · 2026</span></div></li>
+          <li><span class="lvl">MSc</span><div><b>Vampah Tizhe Peter</b> · Entropy generation in MHD porous-channel flow with Navier slip <span class="st">Co-supervisor · 2026</span></div></li>
+          <li><span class="lvl">MSc</span><div><b>Usman Rilwan</b> · Time-dependent natural convection with heat source/sink <span class="st">Major supervisor · 2021</span></div></li>
+        </ul>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:.8rem">Selected conference presentations</div>
+        <ul class="timeline">
+          <li><span class="when">2024</span><div><div class="what">10th International Aegean Conferences on Innovation Technologies &amp; Engineering</div><div class="where">İzmir, Türkiye · two papers on EMHD and electrokinetic convection</div></div></li>
+          <li><span class="when">2024</span><div><div class="what">8th International Conference on Global Practice of Multidisciplinary Scientific Studies</div><div class="where">Dubai, UAE · mixed convective rarefied gas flow with flow reversal</div></div></li>
+          <li><span class="when">2022</span><div><div class="what">Ankara International Congress on Scientific Research VI</div><div class="where">Ankara, Türkiye · oral presentation</div></div></li>
+          <li><span class="when">2021</span><div><div class="what">39th Annual Conference, Nigerian Mathematical Society</div><div class="where">Redeemer's University, Ede · two oral presentations</div></div></li>
+          <li><span class="when">2016</span><div><div class="what">35th Annual Conference, Nigerian Mathematical Society</div><div class="where">FUT Minna · two papers</div></div></li>
+          <li><span class="when">2015</span><div><div class="what">52nd Annual Conference, Mathematical Association of Nigeria</div><div class="where">UNEC, Enugu</div></div></li>
+        </ul>
+        <div class="eyebrow" style="margin:2rem 0 .8rem">Teaching</div>
+        <p style="margin:0">Numerical Analysis I &amp; II, Engineering Calculus, Linear Algebra, Vectors, Algebra, and Research Methodology (MATH 812). Postgraduate engineering mathematics and numerical methods for the PGD Civil Engineering programme, and online tutoring for the ABU Distance Learning Centre since 2020.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <header><h2>Contact</h2></header>
+    <p style="margin-top:0;max-width:62ch">I welcome collaboration on heat transfer modelling, scientific machine learning and applied problems with African relevance, and enquiries from prospective research students.</p>
+    <div class="emails" id="emails"></div>
+  </section>
+
+  <footer>Publication list and metrics update automatically each week. Last sync: <span id="foot-sync">—</span>.</footer>
+</main>
+
+<script>
+(function(){
+  const S = window.SITE;
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+  // identity
+  $("name").textContent = `${S.honorific} ${S.name}`;
+  $("role").textContent = S.role;
+  $("aff").innerHTML = S.affiliations.map(a => `<div>${esc(a)}</div>`).join("");
+  $("bio").textContent = S.bio;
+  const labels = ["University", "Personal"];
+  $("emails").innerHTML = S.emails.map((e,i) =>
+    `<div class="erow"><span class="lab">${labels[i]||"Email"}</span><span class="email" id="email-${i}">${esc(e)}</span><button class="copy" type="button" data-i="${i}">Copy</button></div>`).join("");
+  $("emails").addEventListener("click", ev => {
+    const b = ev.target.closest("button.copy"); if (!b) return;
+    const el = $("email-"+b.dataset.i), addr = el.textContent;
+    const done = () => { b.textContent = "Copied"; setTimeout(()=>b.textContent="Copy",1600); };
+    const fallback = () => { const r=document.createRange(); r.selectNodeContents(el); const s=getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent="Press Ctrl+C"; };
+    try { navigator.clipboard.writeText(addr).then(done, fallback); } catch(e){ fallback(); }
+  });
+
+  // profile links
+  const q = encodeURIComponent(S.name.replace(/\./g,""));
+  const I = S.ids;
+  const profiles = [
+    ["Google Scholar","GS", I.googleScholar && `https://scholar.google.com/citations?user=${I.googleScholar}`, `https://scholar.google.com/citations?view_op=search_authors&mauthors=${q}`],
+    ["Scopus","SC", I.scopus && `https://www.scopus.com/authid/detail.uri?authorId=${I.scopus}`, `https://www.scopus.com/freelookup/form/author.uri`],
+    ["ORCID","iD", I.orcid && `https://orcid.org/${I.orcid}`, `https://orcid.org/orcid-search/search?searchQuery=${q}`],
+    ["Web of Science","WoS", I.wos && `https://www.webofscience.com/wos/author/record/${I.wos}`, `https://www.webofscience.com/wos/author/search`],
+    ["ResearchGate","RG", I.researchgate && `https://www.researchgate.net/profile/${I.researchgate}`, `https://www.researchgate.net/search/researcher?q=${q}`]
+  ];
+  $("profiles").innerHTML = profiles.map(([label,tag,url,fallback]) =>
+    `<a href="${url||fallback}" target="_blank" rel="noopener"${url?"":' class="pending" title="Profile ID not set yet — links to a search"'}><span class="tag">${tag}</span>${label}</a>`).join("");
+
+  // publications
+  let PUBS = [];
+  const hl = authors => {
+    let s = esc(authors);
+    for (const n of S.highlightAuthor) {
+      const re = new RegExp(`([^,;]*\\b${n.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}\\b[^,;]*)`);
+      if (re.test(s)) return s.replace(re, "<b>$1</b>");
+    }
+    return s;
+  };
+  function render(){
+    const term = $("q").value.trim().toLowerCase();
+    const sort = $("sort").value;
+    let list = PUBS.filter(p => !term || [p.title,p.venue,p.authors].join(" ").toLowerCase().includes(term));
+    if (!list.length){ $("pub-list").innerHTML = `<p class="empty">No publications match “${esc(term)}”.</p>`; return; }
+    const item = p => `<li class="pub"><div style="min-width:0">
+        <div class="t">${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>`:esc(p.title)}</div>
+        ${p.authors?`<div class="a">${hl(p.authors)}</div>`:""}
+        ${p.venue?`<div class="j">${esc(p.venue)}</div>`:""}
+        ${p.doi?`<div class="doi"><a href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">doi:${esc(p.doi)}</a></div>`:""}
+        <div class="tools"><button class="cite" type="button" data-id="${p._id}" aria-expanded="false">Cite · BibTeX</button></div>
+      </div><div class="c">${p.citations==null ? "" : `${p.citations}<small>cited</small>`}</div></li>`;
+    if (sort === "cites"){
+      list.sort((a,b)=>(b.citations||0)-(a.citations||0));
+      $("pub-list").innerHTML = `<ul class="pubs">${list.map(item).join("")}</ul>`;
+    } else {
+      const groups = {};
+      list.forEach(p => (groups[p.year||"In press"] ||= []).push(p));
+      $("pub-list").innerHTML = Object.keys(groups).sort((a,b)=>(+b||9999)-(+a||9999))
+        .map(y => `<div class="year-group"><h3>${esc(y)}</h3><ul class="pubs">${groups[y].map(item).join("")}</ul></div>`).join("");
+    }
+  }
+  $("q").addEventListener("input", render);
+  $("sort").addEventListener("change", render);
+
+  // BibTeX
+  const ascii = s => String(s||"").normalize("NFD").replace(/[̀-ͯ]/g,"");
+  function bibtex(p){
+    const names = (p.authors||"").replace(/,?\s*…\s*,?/g,",").split(",").map(s=>s.trim()).filter(Boolean)
+      .map(n => { const parts = n.split(/\s+/); const last = parts.pop(); return parts.length ? `${last}, ${parts.join(" ")}` : last; });
+    if (/…/.test(p.authors||"")) names.push("others");
+    const first = ascii((names[0]||"anon").split(",")[0]).toLowerCase().replace(/[^a-z]/g,"");
+    const word = ascii(p.title).toLowerCase().split(/\W+/).find(w => w.length > 3 && !["with","from","into","under","flow","analysis"].includes(w)) || "paper";
+    const venue = (p.venue||"").split(",")[0].trim();
+    const extra = (p.venue||"").split(",").slice(1).map(s=>s.trim()).filter(Boolean);
+    const f = [["title",`{${p.title}}`],["author",names.join(" and ")],["journal",venue],["year",p.year]];
+    if (extra[0] && /^\d+/.test(extra[0])) { const m = extra[0].match(/^(\d+)(?:\((\S+)\))?/); f.push(["volume",m[1]]); if (m[2]) f.push(["number",m[2]]); }
+    if (extra[1]) f.push([/^[A-Za-z]?\d+$/.test(extra[1]) ? "pages" : "note", extra[1].replace("–","--")]);
+    if (p.doi) f.push(["doi",p.doi]);
+    return `@article{${first}${p.year}${word},\n` + f.filter(x=>x[1]).map(([k,v])=>`  ${k.padEnd(7)} = {${v}}`).join(",\n") + "\n}";
+  }
+  document.addEventListener("click", ev => {
+    const b = ev.target.closest("button.cite");
+    if (b) {
+      const li = b.closest(".pub, .selected li"), open = li.querySelector(".bib");
+      if (open) { open.remove(); b.setAttribute("aria-expanded","false"); return; }
+      const p = PUBS.find(x => String(x._id) === b.dataset.id); if (!p) return;
+      const box = document.createElement("div"); box.className = "bib";
+      box.innerHTML = `<div class="bar"><span>BibTeX</span><button type="button" class="bibcopy">Copy</button></div><pre></pre>`;
+      box.querySelector("pre").textContent = bibtex(p);
+      b.parentElement.after(box); b.setAttribute("aria-expanded","true");
+      return;
+    }
+    const c = ev.target.closest("button.bibcopy");
+    if (c) {
+      const pre = c.closest(".bib").querySelector("pre");
+      const fallback = () => { const r=document.createRange(); r.selectNodeContents(pre); const s=getSelection(); s.removeAllRanges(); s.addRange(r); c.textContent="Press Ctrl+C"; };
+      try { navigator.clipboard.writeText(pre.textContent).then(()=>{ c.textContent="Copied"; setTimeout(()=>c.textContent="Copy",1600); }, fallback); } catch(e){ fallback(); }
+    }
+  });
+
+  // selected publications
+  function renderSelected(){
+    const key = s => String(s||"").toLowerCase().replace(/[^a-z0-9]/g,"");
+    $("selected-list").innerHTML = (S.selected||[]).map(sel => {
+      const p = PUBS.find(x => key(x.title).startsWith(key(sel.match))); if (!p) return "";
+      const jr = (p.venue||"").split(",")[0];
+      return `<li><div style="min-width:0">
+        <div class="jr">${esc(jr)} · ${p.year}</div>
+        <div class="t">${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>`:esc(p.title)}</div>
+        <p class="note">${esc(sel.note)}</p>
+        <div class="a">${hl(p.authors)}</div>
+        <div class="tools" style="margin-top:.5rem"><button class="cite" type="button" data-id="${p._id}" aria-expanded="false">Cite · BibTeX</button></div>
+      </div><div class="c">${p.citations ?? ""}${p.citations!=null?"<small>citations</small>":""}</div></li>`;
+    }).join("");
+  }
+
+  // news
+  const NEWS_SHOWN = 5;
+  function renderNews(all){
+    const list = all ? S.news : S.news.slice(0, NEWS_SHOWN);
+    $("news-list").innerHTML = list.map(n => `<li><span class="d">${esc(n.date)}</span><div>${n.text}</div></li>`).join("");
+    $("news-more").hidden = all || S.news.length <= NEWS_SHOWN;
+  }
+  $("news-more").addEventListener("click", () => renderNews(true));
+  renderNews(false);
+
+  // visitor statistics: only on the public site, never in previews
+  if (S.analytics && /\.netlify\.app$|\.github\.io$|^(www\.)?michaeloni\./.test(location.hostname)) {
+    const s = document.createElement("script");
+    s.async = true; s.src = "https://gc.zgo.at/count.js";
+    s.dataset.goatcounter = `https://${S.analytics}.goatcounter.com/count`;
+    document.head.appendChild(s);
+  }
+
+  const fmt = n => (n==null ? "—" : Number(n).toLocaleString());
+  fetch("publications.json", {cache:"no-cache"}).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+    PUBS = (d.publications || []).map((p,i) => (p._id = i, p));
+    renderSelected();
+    const m = d.metrics || {};
+    $("m-cit").textContent = fmt(m.citations ?? PUBS.reduce((s,p)=>s+(p.citations||0),0));
+    $("m-h").textContent = fmt(m.h_index);
+    $("m-i10").textContent = fmt(m.i10_index);
+    $("m-n").textContent = fmt(PUBS.length);
+    const when = d.updated ? new Date(d.updated).toLocaleDateString(undefined,{year:"numeric",month:"short",day:"numeric"}) : "never";
+    $("sync").textContent = `Metrics: ${m.label || d.source || "—"} · list updated ${when}`;
+    $("foot-sync").textContent = when;
+    $("sample-notice").hidden = !d.sample;
+    render();
+  }).catch(() => {
+    $("sync").textContent = "Publication data not found. Run the sync once to create publications.json.";
+    $("pub-list").innerHTML = `<p class="empty">No publication data yet.</p>`;
+  });
+
+})();
+</script>
+
+</body>
+</html>
