@@ -551,7 +551,7 @@ window.SITE = {
   renderNews(false);
 
   // visitor statistics: only on the public site, never in previews
-  if (S.analytics && /\.netlify\.app$|^(www\.)?michaeloni\./.test(location.hostname)) {
+  if (S.analytics && /\.netlify\.app$|\.github\.io$|^(www\.)?michaeloni\./.test(location.hostname)) {
     const s = document.createElement("script");
     s.async = true; s.src = "https://gc.zgo.at/count.js";
     s.dataset.goatcounter = `https://${S.analytics}.goatcounter.com/count`;
