@@ -1,0 +1,10 @@
+# Publications to hide from the website, one per line.
+# Write the start of the title (enough words to be unique). Capitals and punctuation don't matter.
+# Lines starting with # are ignored. Everything on your Google Scholar profile is shown unless listed here.
+
+# Not on Google Scholar; wrongly linked to my ORCID by OpenAlex (another author's reports)
+Kovasu Test Report
+Kovasu User Manual
+
+# Older copy of a paper that Google Scholar already lists under its published title
+TRANSIENT FREE CONVECTIVE FLOW IN A VERTICAL CHANNEL WITH THERMAL BOUNDARY CONDITIONS OF THE THIRD KIND
