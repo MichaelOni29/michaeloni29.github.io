@@ -20,11 +20,26 @@ import json, os, re, sys, time, datetime, difflib, urllib.request, urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "publications.json")
+EXCLUDE = os.path.join(ROOT, "exclude.txt")
 
 SCHOLAR_ID = os.environ.get("SCHOLAR_ID", "").strip()
 ORCID_ID = os.environ.get("ORCID_ID", "").strip()
 SERPAPI_KEY = os.environ.get("SERPAPI_KEY", "").strip()
 EMAIL = os.environ.get("CONTACT_EMAIL", "").strip()
+
+
+def load_exclude():
+    """Lines in exclude.txt are title beginnings to hide (case and punctuation ignored)."""
+    if not os.path.exists(EXCLUDE):
+        return []
+    with open(EXCLUDE, encoding="utf-8") as f:
+        return [norm(l) for l in f if l.strip() and not l.lstrip().startswith("#")]
+
+
+def keep(p, excluded):
+    """Show everything except entries listed in exclude.txt."""
+    t = norm(p.get("title"))
+    return bool(t) and not any(t.startswith(x) for x in excluded)
 
 
 def get_json(url):
@@ -34,7 +49,7 @@ def get_json(url):
 
 
 def norm(title):
-    return re.sub(r"[^a-z0-9]", "", (title or "").lower())[:120]
+    return re.sub(r"[^a-z0-9]", "", (title or "").lower())[:200]
 
 
 def year_of(v):
@@ -125,6 +140,8 @@ def merge(primary, secondary):
         k = norm(s["title"])
         if k and k not in by_title:  # tolerate small title differences between databases
             close = difflib.get_close_matches(k, list(by_title), n=1, cutoff=0.9)
+            if not close:  # one title is the other plus extra words (common on Scholar)
+                close = [x for x in by_title if len(min(x, k, key=len)) >= 40 and (x.startswith(k) or k.startswith(x))]
             if close: k = close[0]
         if k in by_title:
             p = by_title[k]
@@ -169,7 +186,22 @@ def main():
             old = json.load(f)
         existing = [p for p in old.get("publications", []) if not p.get("example")]
         old_metrics = old.get("metrics", {})
+    if scholar:
+        # Entries saved from Scholar earlier but no longer on the Scholar profile
+        # (deleted or retitled there) are dropped, so the site follows Scholar.
+        skeys = [norm(p.get("title")) for p in scholar]
+        def still_on_scholar(p):
+            if "scholar.google" not in (p.get("url") or ""):
+                return True
+            k = norm(p.get("title"))
+            return k in skeys or bool(difflib.get_close_matches(k, skeys, n=1, cutoff=0.9))
+        existing = [p for p in existing if still_on_scholar(p)]
     pubs = merge(merge(scholar, openalex), existing)
+    pubs = merge([], pubs)  # final pass: fold together any remaining near-duplicates
+    excluded = load_exclude()
+    before = len(pubs)
+    pubs = [p for p in pubs if keep(p, excluded)]
+    print(f"Hid {before - len(pubs)} entries listed in exclude.txt.")
 
     if metrics.get("citations"):
         metrics["label"] = "Google Scholar"
