@@ -1,6 +1,6 @@
 {
   "source": "Google Scholar + ORCID/OpenAlex",
-  "updated": "2026-11-01T13:29:14+00:00",
+  "updated": "2026-11-01T14:35:07+00:00",
   "metrics": {
     "citations": 872,
     "h_index": 18,
@@ -24,24 +24,6 @@
       "year": null,
       "citations": 0,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:_FxGoFyzp5QC",
-      "doi": ""
-    },
-    {
-      "title": "Next Chemical Engineering",
-      "authors": "MO Oni, AA Hussain, BK Jha",
-      "venue": "",
-      "year": null,
-      "citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:ns9cj8rnVeAC",
-      "doi": ""
-    },
-    {
-      "title": "Partial Differential Equations in Applied Mathematics",
-      "authors": "MO Lawal, KB Kasali, HA Ogunseye, MO Oni, YO Tijani, YT Lawal",
-      "venue": "",
-      "year": null,
-      "citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:aqlVkmm33-oC",
       "doi": ""
     },
     {
@@ -160,24 +142,6 @@
       "citations": 4,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:BqipwSGYUEgC",
       "doi": "10.1016/j.nxcen.2026.100067"
-    },
-    {
-      "title": "Kovasu Test Report",
-      "authors": "Michael O. Oni, Soytürk Başar",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "year": 2026,
-      "citations": 0,
-      "url": "https://doi.org/10.5281/zenodo.20631141",
-      "doi": "10.5281/zenodo.20631141"
-    },
-    {
-      "title": "Kovasu User Manual",
-      "authors": "Michael O. Oni, Soytürk Başar, Mariana Curado Malta, Malta Miguel",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "year": 2026,
-      "citations": 0,
-      "url": "https://doi.org/10.5281/zenodo.20557892",
-      "doi": "10.5281/zenodo.20557892"
     },
     {
       "title": "Optimizing advanced microthermal systems: Synergistic effects of dual streaming potentials and induced magnetic fields in EMHD-driven hybrid flows",
@@ -414,15 +378,6 @@
       "doi": "10.21203/rs.3.rs-3553900/v1"
     },
     {
-      "title": "TRANSIENT FREE CONVECTIVE FLOW IN A VERTICAL CHANNEL WITH THERMAL BOUNDARY CONDITIONS OF THE THIRD KIND: A CAPUTO-FABRIZIO (C.F) AND ATANGANA-BALEANU (ABC) MODELS",
-      "authors": "Luqman Adetunji 2 A, Basant K. Jha 1, Michael O. Oni",
-      "venue": "",
-      "year": 2023,
-      "citations": 0,
-      "url": "https://doi.org/10.22541/au.169425008.88538210/v1",
-      "doi": "10.22541/au.169425008.88538210/v1"
-    },
-    {
       "title": "Analysis of transient buoyancy/electroosmotic driven flow in a vertical microannulus with velocity-slip and temperature-jump",
       "authors": "MO Oni, BK Jha",
       "venue": "Engineering Science & Technology, 83-106, 2022",
@@ -469,11 +424,11 @@
     },
     {
       "title": "Exact solution of unsteady MHD free convective flow with constant heat flux: revisited",
-      "authors": "BK Jha",
-      "venue": "Zenodo (CERN European Organization for Nuclear Research), 2021",
+      "authors": "BK Jha, LA Azeez, MO Oni",
+      "venue": "International Journal of Applied Power Engineering (IJAPE) 10 (DOI:10.11591 …, 2021",
       "year": 2021,
       "citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:7PzlFSSx8tAC",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:g5m5HwL7SMYC",
       "doi": "10.11591/ijape.v10.i2.pp135-142"
     },
     {
@@ -549,21 +504,12 @@
       "doi": "10.1016/j.jppr.2018.12.002"
     },
     {
-      "title": "Role of radial magnetic field on heat transfer in MHD Couette flow in an annulus with viscous and Joule dissipation",
+      "title": "Role of Sudden Application or Withdrawal of Magnetic Field on MHD Couette Flow",
       "authors": "BK Jha, MO Oni",
       "venue": "International Journal of Applied Mechanics and Engineering 24 (4), 92-105, 2019",
       "year": 2019,
       "citations": 2,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:MXK_kJrjxJIC",
-      "doi": ""
-    },
-    {
-      "title": "Role of Sudden Application or Withdrawal of Magnetic Field on MHD Couette Flow",
-      "authors": "Basant Kumar Jha, Michael O. Oni",
-      "venue": "International Journal of Applied Mechanics and Engineering",
-      "year": 2019,
-      "citations": 2,
-      "url": "https://doi.org/10.2478/ijame-2019-0051",
       "doi": "10.2478/ijame-2019-0051"
     },
     {
@@ -711,22 +657,13 @@
       "doi": "10.11648/j.aas.20170203.11"
     },
     {
-      "title": "Unsteady couette flow in an annulus with combined mode of magnetic field application: A generalization",
-      "authors": "Michael O. Oni, Taiwo S. Yusuf",
-      "venue": "Mathematical Modelling and Engineering Problems",
-      "year": 2017,
-      "citations": 3,
-      "url": "https://doi.org/10.18280/mmep.040405",
-      "doi": "10.18280/mmep.040405"
-    },
-    {
       "title": "Unsteady couette flow in an annulus with combined mode of magnetic field application: A generalization Unsteady couette flow in an annulus with combined mode of magnetic field …",
       "authors": "MO Oni, TS Yusuf",
       "venue": "MATHEMATICAL MODELLING OF ENGINEERING PROBLEMS 4 (4), 168-172, 2017",
       "year": 2017,
       "citations": 3,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:kNdYIx-mwKoC",
-      "doi": ""
+      "doi": "10.18280/mmep.040405"
     },
     {
       "title": "A STUDY ON NATURAL CONVECTION FLOW IN CYLINDRICAL GEOMETRIES WITH TIME-PERIODIC HEAT INPUT",
