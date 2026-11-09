@@ -1,8 +1,8 @@
 {
   "source": "Google Scholar + ORCID/OpenAlex",
-  "updated": "2026-11-02T11:23:18+00:00",
+  "updated": "2026-11-09T11:45:25+00:00",
   "metrics": {
-    "citations": 872,
+    "citations": 875,
     "h_index": 18,
     "i10_index": 31,
     "label": "Google Scholar"
@@ -97,6 +97,15 @@
       "citations": 0,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:70eg2SAEIzsC",
       "doi": "10.1177/09576509261490836"
+    },
+    {
+      "title": "Electro-Magnetohydrodynamic Flow of Nanofluids in Porous Microchannels: Modeling Dual Streaming Potentials with Dissipative and Joule Heating Effects",
+      "authors": "Usman S. Rilwan, Michael O. Oni, Basant Kumar Jha, Haruna M. Jibril",
+      "venue": "Next research.",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://doi.org/10.1016/j.nexres.2026.102684",
+      "doi": "10.1016/j.nexres.2026.102684"
     },
     {
       "title": "Entropy Generation and Mixed Convection in Vertical Annuli with Variable-Viscosity: Applications in EOR",
@@ -247,7 +256,7 @@
       "authors": "BK Jha, LA Azeez, MO Oni",
       "venue": "Engineering and Applied Science Letters",
       "year": 2025,
-      "citations": 0,
+      "citations": 1,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:k_IJM867U9cC",
       "doi": "10.30538/psrp-easl2025.0121"
     },
@@ -283,7 +292,7 @@
       "authors": "OO Michael, KJ Basant, MA Junaid, HA Olaife",
       "venue": "Power Engineering and Engineering Thermophysics 3 (1), 27-44, 2024",
       "year": 2024,
-      "citations": 7,
+      "citations": 9,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:e5wmG9Sq2KIC",
       "doi": "10.56578/peet030103"
     },
@@ -400,7 +409,7 @@
       "authors": "MO Lawal, KB Kasali, HA Ogunseye, MO Oni, YO Tijani, YT Lawal",
       "venue": "Partial Differential Equations in Applied Mathematics 5, 100318, 2022",
       "year": 2022,
-      "citations": 59,
+      "citations": 60,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:qxL8FJ1GzNcC",
       "doi": "10.1016/j.padiff.2022.100318"
     },
@@ -472,7 +481,7 @@
       "authors": "BK Jha, MO Oni",
       "venue": "International Journal of Applied and Computational Mathematics 6 (5), 129, 2020",
       "year": 2020,
-      "citations": 17,
+      "citations": 18,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:KlAtU1dfN6UC",
       "doi": "10.1007/s40819-020-00880-9"
     },
@@ -481,7 +490,7 @@
       "authors": "MO Oni, BK Jha",
       "venue": "Journal of Aircraft and Spacecraft technology 3 (1), 183-196, 2019",
       "year": 2019,
-      "citations": 20,
+      "citations": 24,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:3fE2CSJIrl8C",
       "doi": "10.3844/jastsp.2019.183.196"
     },
@@ -490,7 +499,7 @@
       "authors": "BK Jha, MO Oni",
       "venue": "Journal of King Saud University-Science 31 (4), 575-585, 2019",
       "year": 2019,
-      "citations": 23,
+      "citations": 24,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:LkGwnXOMwfcC",
       "doi": "10.1016/j.jksus.2018.10.009"
     },
@@ -661,7 +670,7 @@
       "authors": "MO Oni, TS Yusuf",
       "venue": "MATHEMATICAL MODELLING OF ENGINEERING PROBLEMS 4 (4), 168-172, 2017",
       "year": 2017,
-      "citations": 3,
+      "citations": 4,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:kNdYIx-mwKoC",
       "doi": "10.18280/mmep.040405"
     },
