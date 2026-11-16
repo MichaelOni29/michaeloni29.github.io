@@ -1,8 +1,8 @@
 {
   "source": "Google Scholar + ORCID/OpenAlex",
-  "updated": "2026-11-09T11:45:25+00:00",
+  "updated": "2026-11-16T11:37:42+00:00",
   "metrics": {
-    "citations": 875,
+    "citations": 883,
     "h_index": 18,
     "i10_index": 31,
     "label": "Google Scholar"
@@ -100,11 +100,11 @@
     },
     {
       "title": "Electro-Magnetohydrodynamic Flow of Nanofluids in Porous Microchannels: Modeling Dual Streaming Potentials with Dissipative and Joule Heating Effects",
-      "authors": "Usman S. Rilwan, Michael O. Oni, Basant Kumar Jha, Haruna M. Jibril",
-      "venue": "Next research.",
+      "authors": "US Rilwan, MO Oni, BK Jha, HM Jibril",
+      "venue": "Next Research, 102684, 2026",
       "year": 2026,
       "citations": 0,
-      "url": "https://doi.org/10.1016/j.nexres.2026.102684",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:pqnbT2bcN3wC",
       "doi": "10.1016/j.nexres.2026.102684"
     },
     {
@@ -202,7 +202,7 @@
       "authors": "MO Onia, US Rilwana",
       "venue": "Journal of Mathematics and Artificial Intelligence 1 (2), 91-115, 2025",
       "year": 2025,
-      "citations": 6,
+      "citations": 7,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:bEWYMUwI8FkC",
       "doi": ""
     },
@@ -220,7 +220,7 @@
       "authors": "MO Oni, US Rilwan",
       "venue": "Journal of the Korean Physical Society 87 (12), 1474-1500, 2025",
       "year": 2025,
-      "citations": 5,
+      "citations": 6,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:isC4tDSrTZIC",
       "doi": "10.1007/s40042-025-01472-w"
     },
@@ -247,7 +247,7 @@
       "authors": "MO Oni, MT Akolade, G Samaila, TS Yusuf, YO Tijani, A Yusuf, PB Malgwi",
       "venue": "Journal of Thermal Analysis and Calorimetry 150 (3), 1933-1945, 2025",
       "year": 2025,
-      "citations": 19,
+      "citations": 20,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:4JMBOYKVnBMC",
       "doi": "10.1007/s10973-024-13875-1"
     },
@@ -265,7 +265,7 @@
       "authors": "US Rilwan, MO Oni, BK Jha, HM Jibril",
       "venue": "Heat Transfer 53 (3), 989-1013, 2024",
       "year": 2024,
-      "citations": 29,
+      "citations": 30,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:-f6ydRqryjwC",
       "doi": "10.1002/htj.22974"
     },
@@ -400,7 +400,7 @@
       "authors": "MO Oni, BK Jha, AO Ajibade",
       "venue": "International Communications in Heat and Mass Transfer 131, 105839, 2022",
       "year": 2022,
-      "citations": 13,
+      "citations": 14,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:4TOpqqG69KYC",
       "doi": "10.1016/j.icheatmasstransfer.2021.105839"
     },
@@ -481,7 +481,7 @@
       "authors": "BK Jha, MO Oni",
       "venue": "International Journal of Applied and Computational Mathematics 6 (5), 129, 2020",
       "year": 2020,
-      "citations": 18,
+      "citations": 19,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:KlAtU1dfN6UC",
       "doi": "10.1007/s40819-020-00880-9"
     },
@@ -535,7 +535,7 @@
       "authors": "MO Oni, BK Jha",
       "venue": "Journal of Taibah University for Science 13 (1), 1087-1099, 2019",
       "year": 2019,
-      "citations": 24,
+      "citations": 25,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:5nxA0vEk-isC",
       "doi": "10.1080/16583655.2019.1682830"
     },
@@ -580,7 +580,7 @@
       "authors": "TS Yusuf, MO Oni",
       "venue": "Propulsion and Power Research 7 (4), 342-352, 2018",
       "year": 2018,
-      "citations": 21,
+      "citations": 22,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:roLk4NBRz8UC",
       "doi": "10.1016/j.jppr.2018.11.005"
     },
