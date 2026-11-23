@@ -1,8 +1,8 @@
 {
   "source": "Google Scholar + ORCID/OpenAlex",
-  "updated": "2026-11-18T14:38:11+00:00",
+  "updated": "2026-11-23T13:04:43+00:00",
   "metrics": {
-    "citations": 883,
+    "citations": 886,
     "h_index": 18,
     "i10_index": 31,
     "label": "Google Scholar"
@@ -697,9 +697,18 @@
       "authors": "A Aminu, O Michael",
       "venue": "Afrika Matematika 26 (5), 871-885, 2015",
       "year": 2015,
-      "citations": 16,
+      "citations": 18,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:u5HHmVD_uO8C",
       "doi": "10.1007/s13370-014-0251-1"
+    },
+    {
+      "title": "Paraletrix linear space",
+      "authors": "M Oni, A Aminu",
+      "venue": "Journal of the Nigerian Association of Mathematical Physics 31, 279-284, 2015",
+      "year": 2015,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7PQsNQ4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7PQsNQ4AAAAJ:HoB7MX3m0LUC",
+      "doi": ""
     },
     {
       "title": "The exponential paraletrix",
